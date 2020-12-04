@@ -7,21 +7,18 @@
 * MIT Licensed
 */
 
-/* --- ↓ width and height ---- */
+/*--- ↓ width and height ----*/
+//content
+$max-content-width: 1500px;
 
-$tab-height: 3.3rem;
-$tab-cursor-height: 1.6rem;
+//avatar
+$avatar-size: 150px;
 
-$sidebar-width-small: 210px;
-$sidebar-width-medium: 260px;
-$sidebar-width-large: 350px;
+//sidebar
+$sidebar-width: 260px;
 
-$topbar-height: 3rem;
-
-$footer-height: 5rem;
-
-$main-content-max-width: 1150px;
-
-$panel-max-width: 300px;
-
-$post-extend-min-height: 35rem;
+//topbar
+$topbar-avatar-size: 2rem;
+$topbar-avatar-margin: .75rem;
+$icon-size: 1.5rem;
+$topbar-height: $topbar-avatar-size + 2 * $topbar-avatar-margin;

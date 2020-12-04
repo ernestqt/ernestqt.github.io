@@ -1,0 +1,676 @@
+---
+---
+/*!
+* The main styles.
+* v2.0
+* https://github.com/cotes2020/jekyll-theme-chirpy
+* © 2018-2019 Cotes Chung
+* MIT Licensed
+*/
+
+@import "_addon/fonts";
+@import "_addon/module";
+@import "_addon/variables";
+@import "_colors/light-typography";
+@import "_colors/dark-typography";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@mixin set-visible($light-display, $dark-display) {
+  [light-mode-invisible] {
+    display: $light-display;
+  }
+
+  [dark-mode-invisible] {
+    display: $dark-display;
+  }
+}
+
+@mixin mode-toggle($dark-mode: false) {
+  @if $dark-mode {
+    @include set-visible(inline-block, none);
+    @include dark-scheme;
+  } @else {
+    @include set-visible(none, inline-block);
+    @include light-scheme;
+  }
+}
+
+html:not([mode]), html[mode=light] {
+  @include mode-toggle();
+}
+
+html[mode=dark] {
+  @include mode-toggle(true);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([mode]), html[mode=dark] {
+    @include mode-toggle(true);
+  }
+
+  html[mode=light] {
+    @include mode-toggle();
+  }
+}
+
+@mixin btn-sharing-color($light-color, $important: false) {
+  @if $important {
+    color: var(--btn-share-color, $light-color)!important;
+  } @else {
+    color: var(--btn-share-color, $light-color);
+  }
+}
+
+@mixin btn-post-nav {
+  width: 50%;
+  position: relative;
+  border-color: var(--btn-border-color);
+}
+
+/* Solved jumping scrollbar */
+html {
+  height: 100%;
+  overflow-y: scroll;
+  background: var(--html-bg);
+}
+
+body {
+  min-height: 100%;
+  max-width: $max-content-width;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--body-bg);
+  color: var(--text-color);
+  //-webkit-font-smoothing: antialiased;
+  //-moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#panel-wrapper {
+  width: $sidebar-width - 30px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding-top: 5em;
+  //padding-bottom: 3.5em;
+  font-size: .8em;
+  margin-right: 30px;
+  color: gray;
+
+  /* headers in panel */
+  /*div >h3 {
+    font-size: 1.4em;
+    //font-family: 'Oswald', sans-serif;
+  }*/
+
+  #toc-wrapper, #news-wrapper {
+    //border: 1px solid rgba(158, 158, 158, 0.17);
+    //border-radius: 10px;
+    border-left: 1px solid rgba(158, 158, 158, 0.17);
+    padding-right: 10px;
+  }
+  
+  /*#news-wrapper {
+    a {
+      font-weight: bold;
+      &:hover {
+        @extend %link-hover;
+      }
+    }
+  }*/
+}
+
+/*--- sidebar layout ---*/
+
+#sidebar {
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  width: 0;
+  z-index: 99;
+  background: var(--sidebar-bg);
+  text-align: center;
+  
+  a {
+    //@include sidebar-icon;
+    font-size: 1.5em;
+		color: var(--sidebar-text-color);
+  }
+  
+  //makes the social icons go down
+  #sidebar-top {
+    flex-grow: 1;
+  }
+
+  #sidebar-bottom {
+		margin: 1em;
+    line-height: 1.75em;
+    color: var(--social-icon-text-color);
+    
+		a {
+      padding-bottom: .5em; // icons may have multi lines
+      color: var(--social-icon-text-color);
+    }
+
+    #mode-toggle-wrapper>i {
+      font-size: 1.25em;
+      color: var(--social-icon-text-color);
+    }
+
+    a:hover, #mode-toggle-wrapper>i:hover {
+      color: white;
+    }
+
+  }
+} // #sidebar
+
+.dot {
+  height: 3px;
+  width: 3px;
+  background-color: dimgray;//var(--sidebar-text-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: .75em;//calc((1.5rem - 3px)/2);
+  margin-right: 3px;
+}
+
+#avatar {
+  >a {
+    margin-top: 2.2em;
+    display: block;
+    width: $avatar-size;
+    height: $avatar-size;
+    border-radius: 50%;
+    border: 2px solid gray;
+    overflow: hidden;
+    transform: translateZ(0); // fixed the zoom in Safari
+    -webkit-transition: border-color 0.35s ease-in-out;
+    -moz-transition: border-color 0.35s ease-in-out;
+    transition: border-color 0.35s ease-in-out;
+  }
+
+  &:hover>a {
+    border-color: white;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s !important;
+    -moz-transition: all .5s !important;
+    transition: all .5s !important;
+    &:hover {
+      -ms-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  }
+} // #avatar
+
+#site-title {
+  margin-top: 1.4em;
+  a {
+		color: var(--sidebar-text-color);
+    font-weight: bold;
+    font-size: 1.45em;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+#site-subtitle {
+  font-size: .9em;
+  padding-top: .75em;
+  line-height: .75em;
+	color: var(--sidebar-text-color);
+  a {
+    font-size: .9em;
+		color: var(--sidebar-text-color);
+  }
+  a:hover {
+      color: white;
+      text-decoration: none;
+  }
+}
+
+.sidebar-expand {
+  box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+/*--- top-bar ---*/
+
+#topbar {
+  height: $topbar-height;
+  background-color: rgb(39, 40, 43);
+  height: $topbar-height;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  padding-top: $topbar-avatar-margin;
+  padding-bottom: $topbar-avatar-margin;
+
+  a {
+    color: var(--sidebar-text-color);
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: $topbar-avatar-size;
+    border-radius: 50%;
+    margin-right: .3 * $icon-size;
+    border: 1px solid gray;
+  }
+
+  .topbar-left {
+    font-weight: bold;
+    float: left;
+    padding-left: 1.5em;
+  }
+
+  .topbar-right {
+    float: right;
+    font-size: $icon-size;
+    padding-right: 1.5em;
+    a {
+      margin-left: .2 * $icon-size;
+    }
+  }
+}
+
+footer {
+  opacity: .85;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 0.65em;
+  color: #8a8b8d;
+  a {
+    color: #8a8b8d;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      //@extend %link-hover;
+      color: var(--link-color);
+    }
+  }
+}
+
+/*--- Typography ---*/
+
+h1, h2, h3, h4, h5 {
+  //font-weight: bold;
+  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  @extend %section;
+  @extend %anchor;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 1.55em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.15em;
+}
+
+blockquote {
+  border-left: 5px solid var(--blockquote-border-color);
+  padding-left: 1em;
+  color: var(--blockquote-text-color);
+  .post-content & {
+    a {
+      color: var(--link-color);
+    }
+  }
+}
+
+kbd {
+  margin: 0 .3em;
+}
+
+sup {
+  @extend %anchor;
+}
+
+.footnotes ol {
+  margin-top: .5em;
+  >li {
+    padding-top: .2em;
+    margin-top: -0.2em;
+    >p {
+      padding-left: .2em;
+    }
+    &:not(:last-child) {
+      margin-bottom: -.8em;
+    }
+    &:target>p {
+      background-color: var(--footnote-target-bg);
+      width: fit-content;
+      -webkit-transition: background-color 1.5s ease-in-out;
+      /* Safari prior 6.1 */
+      transition: background-color 1.5s ease-in-out;
+    }
+  }
+}
+
+.footnote {
+  @at-root a#{&} {
+    margin: 0 .2em;
+    border-bottom-style: none !important;
+    -webkit-transition: background-color 1.5s ease-in-out; /* Safari prior 6.1 */
+    transition: background-color 1.5s ease-in-out;
+  }
+  @at-root sup:target>a#{&} {
+    background-color: var(--footnote-target-bg);
+    padding: 0 2px;
+  }
+}
+
+.reversefootnote {
+  @at-root a#{&} {
+    font-size: .6em;
+    position: absolute;
+    line-height: 1;
+    padding-top: .5em;
+    margin-left: .5em;
+    border-bottom-style: none !important;
+  }
+}
+
+a {
+  @at-root p>#{&} {
+    @extend %link-color;
+  }
+  @at-root span>#{&} {
+    @extend %link-color;
+  }
+  .license-wrapper .license-text &:hover {
+    @extend %link-hover;
+  }
+} // a
+
+.mt-zero {
+  margin-top: -.75em;
+}
+
+.mb-zero {
+  margin-bottom: 0;
+}
+
+
+/*--- Begin of Markdown table style ---*/
+
+div.post-content {
+  >table, li>table {
+    min-width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1.5em;
+  }
+}
+
+table {
+  //table-layout: auto;
+  thead {
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    +tbody tr {
+      &:nth-child(2n) {
+        background-color: var(--tb-even-bg);
+      }
+      &:last-child:nth-child(2n) {
+        border-bottom: solid 1px var(--tb-even-border-color);
+      }
+      &:nth-child(2n + 1) {
+        background-color: var(--tb-odd-bg);
+      }
+    }
+    th {
+      @extend %table-cell;
+    }
+  }
+
+  tbody td {
+    @extend %table-cell;
+  }
+
+} // table
+
+table.colored {
+  tbody tr {
+    &:nth-child(2n) {
+      background-color: var(--tb-even-bg);
+    }
+    &:nth-child(2n + 1) {
+      background-color: var(--tb-odd-bg);
+    }
+  }
+}
+
+/* --- Effects classes --- */
+
+.loaded {
+  display: block !important;
+  @at-root .d-flex#{&} {
+    display: flex !important;
+  }
+}
+
+.unloaded {
+  display: none !important;
+}
+
+.visable {
+  visibility: visible !important;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.no-scroll {
+  position: fixed;
+  width: 100%;
+}
+
+.flex-grow-1 {
+  -ms-flex-positive: 1!important;
+  flex-grow: 1!important;
+}
+
+.btn-box-shadow {
+  box-shadow: 0 0 8px 0 var(--btn-box-shadow)!important;
+}
+
+.topbar-up {
+  top: -3em !important; /* same as topbar height. */
+}
+
+.no-text-decoration {
+  @include no-text-decoration;
+}
+
+.tooltip-inner { /* Overrided BS4 Tooltip */
+  font-size: .7em;
+  max-width: 220px;
+  text-align: left;
+}
+
+.disabled {
+  color: rgb(206, 196, 196);
+  pointer-events: auto;
+  cursor: not-allowed;
+}
+
+.hide-border-bottom {
+  border-bottom: none!important;
+}
+
+.input-focus {
+  box-shadow: none;
+  border-color: var(--input-focus-border-color) !important;
+  background: center !important;
+}
+
+/*--- Responsive Design ---*/
+
+/*
+@media all and (max-width: 576px) {
+  div>table, p~table {
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+}
+
+//iPad 9.7" horizontal
+@media all and (min-width: 992px) and (max-width: 1024px) {
+  #main .col-lg-11 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 96%;
+    flex: 0 0 96%;
+    max-width: 96%;
+  }
+}*/
+
+/* By default, both sidebar and panels are hidden */
+
+#panel-wrapper {
+  display: none;
+}
+
+#main {
+  padding-top: 3.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+  .post-content {
+    a {
+      @extend %link-color;
+      //@extend %link-underline;
+      &:hover {
+        //@extend %link-hover;
+      }
+    }
+  }
+}
+
+ol {
+  padding-left: 1.75em;
+}
+
+ul {
+  padding-left: 1.75em;
+  //list-style-type: square;
+}
+
+.size-point-9 {
+  font-size: .9em;
+}
+
+.size-point-8 {
+  font-size: .8em;
+}
+
+
+sup {
+  padding-top: 3.4em;
+}
+
+/*.footnotes ol>li {
+  padding-top: 3.5em;
+  margin-top: -4.3em;
+  &:first-child {
+    margin-top: -3.5em;
+  }
+}*/
+
+/* Sidebar visible and panel hidden */
+@media all and (min-width: 768px) {
+
+  #main {
+    padding-top: 2.5em;
+    padding-left: $sidebar-width + 50px;
+    padding-right: 50px;
+  }
+
+  #sidebar {
+    width: $sidebar-width;
+  }
+
+  #topbar {
+    display: none;
+  }
+}
+
+/* Prevent first column from having its width beyond 100px in modbile */
+@media all and (max-width: 768px) {
+  table {
+    td:nth-child(1) {
+      //doesn't work for Safari on iPhone XS Max
+      //max-width: 100px;
+      //word-wrap: break-word;
+    }
+  }
+}
+
+/* Both sidebar and panel are visible */
+@media all and (min-width: 1000px) {
+
+  #main {
+    padding-left: $sidebar-width + 70px;
+    padding-right: $sidebar-width + 70px;
+  }
+
+  #panel-wrapper {
+    display: block;
+  }
+}
+
+@media all and (min-width: 1300px) {
+
+  #main {
+    padding-left: $sidebar-width + 100px;
+    padding-right: $sidebar-width + 100px;
+  }
+}
+
+@media all and (min-width: 1600px) {
+  
+  #main {
+    padding-left: $sidebar-width + 110px;
+    padding-right: $sidebar-width + 110px;
+  }
+
+  #panel-wrapper {
+    right: calc((100% - #{$max-content-width})/2);
+  }
+
+  #sidebar {
+    width: $sidebar-width + 20px;
+  }
+}
