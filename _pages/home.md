@@ -114,7 +114,7 @@ Spring 2013,14,15 | Data Structures &#8226; Universidad de Las Tunas
 ## Awards & grants
 
 2020 | [<i class='fas fa-award size-point-9'></i> Best PhD thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html) &#8226; Security and Trust Management (STM) Working Group, European Research Consortium for Informatics and Mathematics ([ERCM](https://www.ercim.eu/))
-2019 | <i class='fas fa-award size-point-9'></i> Best PhD thesis &#8226; Computer Science Department, University of Luxembourg
+2020 | <i class='fas fa-award size-point-9'></i> Best PhD thesis &#8226; Computer Science Department, University of Luxembourg
 2015 | AFR-PhD grant (ref. 10188265) &#8226; Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
 
 ## Contact

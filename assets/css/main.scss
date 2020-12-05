@@ -53,24 +53,8 @@ html[mode=dark] {
   }
 }
 
-@mixin btn-sharing-color($light-color, $important: false) {
-  @if $important {
-    color: var(--btn-share-color, $light-color)!important;
-  } @else {
-    color: var(--btn-share-color, $light-color);
-  }
-}
-
-@mixin btn-post-nav {
-  width: 50%;
-  position: relative;
-  border-color: var(--btn-border-color);
-}
-
-/* Solved jumping scrollbar */
 html {
-  height: 100%;
-  overflow-y: scroll;
+  overflow-y: scroll; //to deal with jumping scrollbar
   background: var(--html-bg);
 }
 
@@ -90,21 +74,14 @@ body {
 }
 
 #panel-wrapper {
-  width: $sidebar-width - 30px;
   position: fixed;
   right: 0;
   top: 0;
   padding-top: 5em;
-  //padding-bottom: 3.5em;
   font-size: .8em;
   margin-right: 30px;
+  width: $sidebar-width - 30px;
   color: gray;
-
-  /* headers in panel */
-  /*div >h3 {
-    font-size: 1.4em;
-    //font-family: 'Oswald', sans-serif;
-  }*/
 
   #toc-wrapper, #news-wrapper {
     //border: 1px solid rgba(158, 158, 158, 0.17);
@@ -112,15 +89,6 @@ body {
     border-left: 1px solid rgba(158, 158, 158, 0.17);
     padding-right: 10px;
   }
-  
-  /*#news-wrapper {
-    a {
-      font-weight: bold;
-      &:hover {
-        @extend %link-hover;
-      }
-    }
-  }*/
 }
 
 /*--- sidebar layout ---*/
@@ -151,7 +119,7 @@ body {
     color: var(--social-icon-text-color);
     
 		a {
-      padding-bottom: .5em; // icons may have multi lines
+      padding-bottom: .5em; //icons may have multi lines
       color: var(--social-icon-text-color);
     }
 
@@ -170,16 +138,16 @@ body {
 .dot {
   height: 3px;
   width: 3px;
-  background-color: dimgray;//var(--sidebar-text-color);
+  background-color: dimgray; //var(--sidebar-text-color);
   border-radius: 50%;
   display: inline-block;
-  margin-top: .75em;//calc((1.5rem - 3px)/2);
+  margin-top: .75em; //calc((1.5rem - 3px)/2);
   margin-right: 3px;
 }
 
 #avatar {
   >a {
-    margin-top: 2.2em;
+    margin-top: 2em;
     display: block;
     width: $avatar-size;
     height: $avatar-size;
@@ -211,6 +179,7 @@ body {
       transform: scale(1.3);
     }
   }
+
 } // #avatar
 
 #site-title {
@@ -414,12 +383,33 @@ a {
   }
 } // a
 
-.mt-zero {
+.mt-minus-point-75 {
   margin-top: -.75em;
 }
 
 .mb-zero {
   margin-bottom: 0;
+}
+
+.size-point-9 {
+  font-size: .9em;
+}
+
+.size-point-8 {
+  font-size: .8em;
+}
+
+ol {
+  padding-left: 1.75em;
+}
+
+ul {
+  padding-left: 1.75em;
+  //list-style-type: square;
+}
+
+sup {
+  padding-top: 3.4em;
 }
 
 
@@ -435,7 +425,6 @@ div.post-content {
 }
 
 table {
-  //table-layout: auto;
   thead {
     border-bottom: solid 2px rgba(210, 215, 217, 0.75);
     +tbody tr {
@@ -470,6 +459,15 @@ table.colored {
     }
   }
 }
+
+
+/*.footnotes ol>li {
+  padding-top: 3.5em;
+  margin-top: -4.3em;
+  &:first-child {
+    margin-top: -3.5em;
+  }
+}*/
 
 /* --- Effects classes --- */
 
@@ -565,8 +563,8 @@ table.colored {
 
 #main {
   padding-top: 3.5em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 1.35em;
+  padding-right: 1.35em;
 
   .post-content {
     a {
@@ -578,36 +576,6 @@ table.colored {
     }
   }
 }
-
-ol {
-  padding-left: 1.75em;
-}
-
-ul {
-  padding-left: 1.75em;
-  //list-style-type: square;
-}
-
-.size-point-9 {
-  font-size: .9em;
-}
-
-.size-point-8 {
-  font-size: .8em;
-}
-
-
-sup {
-  padding-top: 3.4em;
-}
-
-/*.footnotes ol>li {
-  padding-top: 3.5em;
-  margin-top: -4.3em;
-  &:first-child {
-    margin-top: -3.5em;
-  }
-}*/
 
 /* Sidebar visible and panel hidden */
 @media all and (min-width: 768px) {
@@ -627,16 +595,17 @@ sup {
   }
 }
 
-/* Prevent first column from having its width beyond 100px in modbile */
+/*
+//prevent first column from being wider than 100px in small screens
 @media all and (max-width: 768px) {
   table {
     td:nth-child(1) {
       //doesn't work for Safari on iPhone XS Max
-      //max-width: 100px;
-      //word-wrap: break-word;
+      max-width: 100px;
+      word-wrap: break-word;
     }
   }
-}
+}*/
 
 /* Both sidebar and panel are visible */
 @media all and (min-width: 1000px) {
