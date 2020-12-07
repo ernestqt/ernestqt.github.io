@@ -13,6 +13,7 @@
 @import "_addon/variables";
 @import "_colors/light-typography";
 @import "_colors/dark-typography";
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 @mixin set-visible($light-display, $dark-display) {
@@ -536,8 +537,7 @@ table.colored {
 
 /*--- Responsive Design ---*/
 
-/*
-@media all and (max-width: 576px) {
+/*@media all and (max-width: 576px) {
   div>table, p~table {
     width: 100%;
     table-layout: fixed;
@@ -594,18 +594,6 @@ table.colored {
     display: none;
   }
 }
-
-/*
-//prevent first column from being wider than 100px in small screens
-@media all and (max-width: 768px) {
-  table {
-    td:nth-child(1) {
-      //doesn't work for Safari on iPhone XS Max
-      max-width: 100px;
-      word-wrap: break-word;
-    }
-  }
-}*/
 
 /* Both sidebar and panel are visible */
 @media all and (min-width: 1000px) {

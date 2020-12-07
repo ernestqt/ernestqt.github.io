@@ -12,10 +12,7 @@ I'm a postdoctoral researcher in Prof. Dr. [David Basin](https://www.inf.ethz.ch
 * distance bounding protocols,
 * automated security analysis,
 * electronic payment and RFID/NFC security,
-<!--* public key infrastructure (PKI),-->
 * systems involving physical aspects.
-
-<!--I'm currently TA for [Information Systems for Engineers](https://www.systems.ethz.ch/courses/spring2020/ise).-->
 
 ## Publications
 
@@ -94,28 +91,34 @@ Jorge Luis Toro Pozo. *Thesis, University of Luxembourg, 2019*<br>
 
 The following are courses which I am/have been a lecturer or teaching assistant of.
 
-Autumn 2020 | [Information Security Lab](https://appliedcrypto.ethz.ch/education/courses/isl-autumn2020.html) &#8226; ETH Zürich
-Spring 2020 | [Information Systems for Engineers](https://www.systems.ethz.ch/courses/spring2020/ise) &#8226; ETH Zürich
-Autumn 2019 | [Algorithms, Probability, and Computing](https://www.ti.inf.ethz.ch/ew/courses/APC19/index.html) &#8226; ETH Zürich
-Winter 2016,17,18 | [Security Protocols](https://satoss.uni.lu/courses/securityprotocols/) &#8226; University of Luxembourg
-Summer 2017 | Information Security Basics &#8226; University of Luxembourg
-Autumn 2012,13 | Operating Systems &#8226; Universidad de Las Tunas
-Spring 2013,14,15 | Data Structures &#8226; Universidad de Las Tunas
+Semester | Course | Institution
+-- | -- | --
+Autumn 2020 | [Information Security Lab](https://appliedcrypto.ethz.ch/education/courses/isl-autumn2020.html) | ETH Zürich
+Spring 2020 | [Information Systems for Engineers](https://www.systems.ethz.ch/courses/spring2020/ise) | ETH Zürich
+Autumn 2019 | [Algorithms, Probability, and Computing](https://www.ti.inf.ethz.ch/ew/courses/APC19/index.html) | ETH Zürich
+Winter 2016,17,18 | [Security Protocols](https://satoss.uni.lu/courses/securityprotocols/) | University of Luxembourg
+Summer 2017 | Information Security Basics | University of Luxembourg
+Autumn 2012,13 | Operating Systems | Universidad de Las Tunas
+Spring 2013,14,15 | Data Structures | Universidad de Las Tunas
 
 ## Career & education
 
-6/2019–present | Postdoctoral researcher &#8226; ETH Zürich, Switzerland
-6/2015–5/2019 | PhD in Computer Science &#8226; University of Luxembourg, Luxembourg<br>Supervision: [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua)
-9/2012–5/2015 | Lecturer in Computer Science &#8226; Universidad de Las Tunas, Cuba
-9/2012–5/2015 | Software engineer &#8226; Univ. de Las Tunas' SoftDev group, Cuba
-9/2013–12/2014 | MSc in Applied Computer Science &#8226; Universidad de Las Tunas, Cuba
-9/2007–6/2012 | BSc in Computer Science &#8226; Universidad de Oriente, Cuba
+Period | Position/Degree | Institution
+-- | -- | --
+6/2019–present | Postdoctoral researcher | ETH Zürich
+6/2015–5/2019 | PhD in Computer Science<br>Supervision by [S. Mauw](https://satoss.uni.lu/sjouke/) and [R. Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua) | University of Luxembourg
+9/2012–5/2015 | Lecturer in Computer Science | Universidad de Las Tunas
+9/2012–5/2015 | Software engineer | Univ. de Las Tunas' SoftDev
+9/2013–12/2014 | MSc in Applied Computer Science | Universidad de Las Tunas
+9/2007–6/2012 | BSc in Computer Science | Universidad de Oriente
 
 ## Awards & grants
 
-2020 | [<i class='fas fa-award size-point-9'></i> Best PhD thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html) &#8226; Security and Trust Management (STM) Working Group, European Research Consortium for Informatics and Mathematics ([ERCM](https://www.ercim.eu/))
-2020 | <i class='fas fa-award size-point-9'></i> Best PhD thesis &#8226; Computer Science Department, University of Luxembourg
-2015 | AFR-PhD grant (ref. 10188265) &#8226; Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
+Year | Award/Grant | Awarder
+-- | -- | --
+2020 | [<i class='fas fa-award size-point-9'></i> Best PhD thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html) | Security and Trust Management (STM) Working Group, European Research Consortium for Informatics and Mathematics ([ERCM](https://www.ercim.eu/))
+2020 | <i class='fas fa-award size-point-9'></i> Best PhD thesis | Computer Science Department, University of Luxembourg
+2015 | AFR-PhD grant (ref. 10188265) | Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
 
 ## Contact
 

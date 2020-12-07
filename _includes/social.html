@@ -1,5 +1,5 @@
 <!--{% if site.social.email %}<a href="mailto:{{ site.social.email | encode_email }}"><i class="fas fa-envelope pr-1"></i></a>{% endif %}-->
-<script language="JavaScript">x = 'jorge.toro'; y = 'inf.ethz.ch'; document.write('<a href="mailto:' + x + '@' + y + '" class="pr-1">');</script><i class="fas fa-envelope"></i></a>
+{% if site.social.email %}<script language="JavaScript">user = 'jorge.toro'; domain = 'inf.ethz.ch'; document.write('<a href="mailto:' + user + '@' + domain + '" class="pr-1">');</script><i class="fas fa-envelope"></i></a>{% endif %}
 {% if site.social.github.username %}<a href="https://github.com/{{ site.social.github.username }}" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
 {% if site.social.scholar.user %}<a href="https://scholar.google.com/citations?user={{ site.social.scholar.user }}" target="_blank"><i class="ai ai-google-scholar"></i></a>{% endif %}
 {% if site.social.linkedin.username %}<a href="https://www.linkedin.com/in/{{ site.social.linkedin.username }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
