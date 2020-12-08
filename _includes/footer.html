@@ -7,15 +7,5 @@
 -->
 
 <footer>
-  <!--<span class="left">-->
-    © {{ 'now' | date: "%Y" }}
-      <a href="{{ site.baseurl }}/">{{ site.title }}</a>. 
-      {% if site.copyright %}
-      <span data-toggle="tooltip" data-placement="top"
-        title="{{ site.data.right.verbose }}">{{ site.copyright }}. </span>
-      {% endif %}
-  <!--</span>
-  <span class="right">-->
-  {{ site.footnote }}
-  <!--</span>-->
+© {{ 'now' | date: "%Y" }} <a href="{{ site.baseurl }}/">{{ site.title }}</a>. {{ site.footnote }}
 </footer>

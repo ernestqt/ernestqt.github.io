@@ -1,5 +1,5 @@
 ---
-# layout: compress
+layout: compress
 # Default layout
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
@@ -24,15 +24,9 @@
 	
 	<body data-spy="scroll" data-target="#toc">  
 		<div id="main">
-			{% capture _content %}
-				{{ content }}
-			{% endcapture %}
-
-			{% include fixlinenos.html %}
-			{{ _content }}
-			
+		  <!--<h1 data-toc-skip>{{ page.title }}</h1>-->			
+			{{ content }}			
 			{% include footer.html %}
 		</div>     
 	</body>
-
 </html>

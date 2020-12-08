@@ -1,7 +1,7 @@
 ---
 title: Activities | Jorge Toro
-layout: post
-permalink: /activities/
+layout: default
+permalink: /act/
 toc: true
 ---
 

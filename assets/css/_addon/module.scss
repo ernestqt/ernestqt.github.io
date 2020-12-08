@@ -40,25 +40,14 @@
 }
 
 %section {
-  #post-wrapper & {
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 %anchor {
-  #post-wrapper &,
-  #page & {
-    padding-top: 3.5rem;
-    margin-top: -2.5rem;
-  }
+  //padding-top: 3.5rem;
+  //margin-top: -2.5rem;
 }
-
-%footer-content {
-  font-weight: 600;
-  color: var(---footer-link);
-}
-
 
 /*---------- scss mixin ---------*/
 

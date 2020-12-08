@@ -1,6 +1,6 @@
 ---
 title: Jorge Toro
-layout: post
+layout: default
 permalink: /
 toc: true
 news: true

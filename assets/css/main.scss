@@ -11,8 +11,11 @@
 @import "_addon/fonts";
 @import "_addon/module";
 @import "_addon/variables";
+
 @import "_colors/light-typography";
 @import "_colors/dark-typography";
+@import "_colors/light-syntax";
+@import "_colors/dark-syntax";
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
@@ -55,7 +58,7 @@ html[mode=dark] {
 }
 
 html {
-  overflow-y: scroll; //to deal with jumping scrollbar
+  overflow-y: scroll; //fix jumping scrollbar
   background: var(--html-bg);
 }
 
@@ -74,21 +77,37 @@ body {
   //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+a {
+  @extend %link-color;
+  &:hover { 
+    //@extend %link-hover;
+    color: var(--link-color);
+    text-decoration: underline;
+  }
+  /*@at-root p>#{&} {
+    @extend %link-color;
+  }
+  @at-root span>#{&} {
+    @extend %link-color;
+  }
+  .license-wrapper .license-text &:hover {
+    @extend %link-hover;
+  }*/
+} // a
+
 #panel-wrapper {
   position: fixed;
-  right: 0;
-  top: 0;
-  padding-top: 5em;
-  font-size: .8em;
-  margin-right: 30px;
-  width: $sidebar-width - 30px;
+  right: 30px;
+  top: 80px;
   color: gray;
+  font-size: 13px;
+  width: $sidebar-width - 30px;
+  padding-right: 1.5em;
 
   #toc-wrapper, #news-wrapper {
     //border: 1px solid rgba(158, 158, 158, 0.17);
     //border-radius: 10px;
     border-left: 1px solid rgba(158, 158, 158, 0.17);
-    padding-right: 10px;
   }
 }
 
@@ -259,27 +278,11 @@ body {
   }
 }
 
-footer {
-  opacity: .85;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-size: 0.65em;
-  color: #8a8b8d;
-  a {
-    color: #8a8b8d;
-    font-weight: bold;
-    text-decoration: none;
-    &:hover {
-      //@extend %link-hover;
-      color: var(--link-color);
-    }
-  }
-}
-
 /*--- Typography ---*/
 
 h1, h2, h3, h4, h5 {
   //font-weight: bold;
+  padding-top: 1rem;
   font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
@@ -289,11 +292,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.7em;
+  font-size: 1.75em;
 }
 
 h2 {
-  font-size: 1.55em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -312,10 +315,8 @@ blockquote {
   border-left: 5px solid var(--blockquote-border-color);
   padding-left: 1em;
   color: var(--blockquote-text-color);
-  .post-content & {
-    a {
-      color: var(--link-color);
-    }
+  a {
+    color: var(--link-color);
   }
 }
 
@@ -372,17 +373,22 @@ sup {
   }
 }
 
-a {
-  @at-root p>#{&} {
-    @extend %link-color;
+footer {
+  opacity: .85;
+	color: gray;
+  padding-top: 75px;
+  padding-bottom: 20px;
+  font-size: 0.65em;
+  a {
+    font-weight: bold;
+		color: gray;
+    text-decoration: none;
+    &:hover {
+      //@extend %link-hover;
+      color: var(--link-color);
+    }    
   }
-  @at-root span>#{&} {
-    @extend %link-color;
-  }
-  .license-wrapper .license-text &:hover {
-    @extend %link-hover;
-  }
-} // a
+}
 
 .mt-minus-point-75 {
   margin-top: -.75em;
@@ -416,13 +422,11 @@ sup {
 
 /*--- Begin of Markdown table style ---*/
 
-div.post-content {
-  >table, li>table {
+table, li>table {
     min-width: 60%;
     border-collapse: collapse;
     border-spacing: 0;
     margin-bottom: 1.5em;
-  }
 }
 
 table {
@@ -565,16 +569,6 @@ table.colored {
   padding-top: 3.5em;
   padding-left: 1.35em;
   padding-right: 1.35em;
-
-  .post-content {
-    a {
-      @extend %link-color;
-      //@extend %link-underline;
-      &:hover {
-        //@extend %link-hover;
-      }
-    }
-  }
 }
 
 /* Sidebar visible and panel hidden */
@@ -631,3 +625,142 @@ table.colored {
     width: $sidebar-width + 20px;
   }
 }
+
+/* ==================================================== */
+/*                      CODE SYNTAX                     */
+/* ==================================================== */          
+/*
+* The syntax highlight.
+* v2.0
+* https://github.com/cotes2020/jekyll-theme-chirpy
+* © 2018-2019 Cotes Chung
+* MIT Licensed
+*/
+
+@mixin highlight-box-shadow($val) {
+  -moz-box-shadow: $val;
+  -webkit-box-shadow: $val;
+  box-shadow: $val;
+}
+
+html:not([mode]), html[mode=light] {
+  @include light-syntax;
+}
+
+html[mode=dark] {
+  @include dark-syntax;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([mode]), html[mode=dark] {
+    @include dark-syntax;
+  }
+
+  html[mode=light] {
+    @include light-syntax;
+  }
+}
+
+/*-- Codes Snippet --*/
+
+%highlight-pre-bg {
+  background: var(--highlight-bg-color);
+}
+
+%code-snippet-radius {
+  border-radius: 5px;
+}
+
+.highlighter-rouge {
+  background: var(--highlight-bg-color);
+  @extend %code-snippet-radius;
+  color: var(--highlighter-rouge-color);
+  margin-bottom: 1.2em; /* Override BS Inline-code style */
+}
+
+.highlight {
+  padding: 2px 4px;//added by Jorge
+
+  @extend %code-snippet-radius;
+  background: var(--highlight-bg-color);
+
+  @at-root figure#{&} {
+    background: var(--highlight-bg-color);
+  }
+  overflow: auto;
+  //@include highlight-box-shadow(inset 0 0 2px #c2c6cc);
+  .lineno {
+    margin: .8rem 0rem;
+    padding: 0 .5rem;
+    min-width: 2.2rem;
+    text-align: right;
+    color: var(--highlight-lineno-color);
+    border-right: 1px solid var(--highlight-lineno-border-color);
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  table {
+    padding: 0;
+    border: 0;
+    td pre {
+      overflow: visible;  /* Fixed iOS safari overflow-x */
+      word-break: normal; /* Fixed iOS safari linenos code break */
+    }
+  }
+  td {
+    padding: 0;
+    border: 0;
+  }
+  pre {
+    margin-bottom: 0;
+    font-size: .85rem;
+    line-height: 1.4rem;
+    word-wrap: normal;
+    /* Fixed Safari overflow-x */
+  }
+
+} //.highlight
+
+code {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  &.highlighter-rouge {
+    padding: 2px 4px;
+    margin: 0 .3rem;
+    border-radius: 4px;
+    //border: 1px solid var(--code-highlighter-rouge);
+  }
+  @at-root a>&.highlighter-rouge {
+    padding-bottom: 0; // show link's underlinke
+  }
+  @at-root a:hover>&.highlighter-rouge {
+    border-bottom: none;
+  }
+}
+
+td.rouge-code {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Hide line numbers for default, console, and terminal code snippets */
+div {
+  &[class^='highlighter-rouge'],
+  &.language-console.highlighter-rouge,
+  &.language-terminal.highlighter-rouge {
+    pre.lineno {
+      display: none;
+    }
+    td.rouge-code {
+      padding: .8rem 1rem;
+    }
+  }
+}
+
+

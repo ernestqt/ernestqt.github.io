@@ -1,6 +1,6 @@
 ---
 title: Top CS confs & journals | Jorge Toro
-layout: post
+layout: default
 permalink: /cs/
 toc: true
 ---

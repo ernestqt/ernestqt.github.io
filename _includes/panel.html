@@ -8,17 +8,19 @@
 
 <div id="panel-wrapper">
   {% if page.toc %}
-  <div id="toc-wrapper" class="pr-4 pb-2">
-    <h3 data-toc-skip class="pl-3 pt-2 mb-3">
+  <div id="toc-wrapper">
+    <h3 data-toc-skip class="pt-0 pl-3">
       Content
     </h3>
     <nav id="toc" data-toggle="toc"></nav>
   </div>
   {% endif %}
-  <p></p>
+  
+  <p id="panel-separator" class="mb-4"></p>
+  
   {% if site.news and page.news %}
-  <div id="news-wrapper" class="pr-4">
-    <h3 data-toc-skip class="pl-3 pt-2 mb-3">
+  <div id="news-wrapper">
+    <h3 data-toc-skip class="pt-0 pl-3 mb-3">
       Latest news
     </h3>
     <div class="pl-3 mb-3">
