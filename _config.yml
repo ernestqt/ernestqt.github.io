@@ -11,8 +11,6 @@
 title: Jorge Toro
 position: Postdoctoral researcher
 institution: <a href="https://www.ethz.ch/en">ETH Zürich</a>
-footnote: Powered by <a href="https://jekyllrb.com">Jekyll</a>, based on the <a href="https://github.com/cotes2020/jekyll-theme-chirpy/">Chirpy</a> theme
-description: Jorge Toro's personal academic website
 
 news:
   #- <span>[30 Sep 2020]</span> The <a href="https://www.iit.cnr.it/STM-WG/contentpage06.html">award</a> given to my thesis has been covered by this University of Luxembourg&apos;s <a href="https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim">news article</a>.
