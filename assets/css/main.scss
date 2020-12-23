@@ -276,6 +276,10 @@ a {
       margin-left: .2 * $icon-size;
     }
   }
+
+  .hide-from-topbar {
+    display: none;
+  }
 }
 
 /*--- Typography ---*/
@@ -292,11 +296,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.7em;
+  font-size: 1.75em;
 }
 
 h2 {
-  font-size: 1.55em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -408,6 +412,10 @@ footer {
 
 .fs-point-7 {
   font-size: .7em;
+}
+
+.rotated {
+  transform: rotate(180deg);
 }
 
 ol {
@@ -766,5 +774,3 @@ div {
     }
   }
 }
-
-
