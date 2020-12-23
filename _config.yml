@@ -34,10 +34,13 @@ social:
     username: jtoropozo
   scholar:
     user: #VKzT5JwAAAAJ
+    hide_from_topbar: yes
   dblp:
     link: #https://dblp.uni-trier.de/search?q=Jorge%20Toro%20Pozo
+    hide_from_topbar: yes
   orcid:
     id: #0000-0001-6615-1600
+    hide_from_topbar: yes
   
 #--------------------------
 
