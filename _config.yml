@@ -13,6 +13,7 @@ position: Postdoctoral researcher
 institution: <a href="https://www.ethz.ch/en">ETH Zürich</a>
 
 news:
+  - <span>[22/2/2021] </span> Our paper reporting a novel attack on EMV has been accepted for <a href="https://www.usenix.org/conference/usenixsecurity21">USENIX Security'21</a>!
   #- <span>[30 Sep 2020]</span> The <a href="https://www.iit.cnr.it/STM-WG/contentpage06.html">award</a> given to my thesis has been covered by this University of Luxembourg&apos;s <a href="https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim">news article</a>.
   #- <span>[11 Sep 2020]</span> Numerous news articles have covered our research on EMV, e.g. by <a href="https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html">ETH Zürich</a>, <a href="https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html">The Hacker News</a>, <a href="https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html">ACM TechNews</a>, <a href="https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html">heise</a>, <a href="https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt">SRF</a> and <a href="https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/">ZDNet</a>.
   #- <span>[27 Aug 2020]</span> My thesis received the 2020 STM Best PhD Thesis <a href="https://www.iit.cnr.it/STM-WG/contentpage06.html">award</a>!
@@ -34,10 +35,8 @@ social:
     username: jtoropozo
   scholar:
     user: #VKzT5JwAAAAJ
-    hide_from_topbar: yes
   dblp:
     link: #https://dblp.uni-trier.de/search?q=Jorge%20Toro%20Pozo
-    hide_from_topbar: yes
   orcid:
     id: #0000-0001-6615-1600
     hide_from_topbar: yes

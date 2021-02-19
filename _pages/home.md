@@ -16,9 +16,17 @@ I'm a postdoctoral researcher in Prof. Dr. [David Basin](https://www.inf.ethz.ch
 
 ## Publications
 
-The following are chronological lists of my published/accepted works, listed also on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=VKzT5JwAAAAJ). All my conference papers use alphabetical author ordering.
+The following are chronological lists of my published/accepted works, some listed also on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=VKzT5JwAAAAJ). All my conference papers use alphabetical author ordering.
 
 ### Conferences
+
+1. **Card Brand Mixup Attack:**<br />
+**Bypassing the PIN in non-Visa cards by Using Them for Visa Transactions**<br />
+David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
+*30th USENIX Security Symposium, 2021*<br />
+([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/USENIX21.pdf)) 
+([<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/)) 
+([<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/8d7UgIiMRBU))
 
 1. **The EMV Standard: Break, Fix, Verify**<br />
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
@@ -28,7 +36,7 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 <!--([bibtex]()) -->
 ([<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/))
 ([<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/JyUsMLxCCt8))<br />
-(media: [ETHZ](https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html), [The Hacker News](https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html), [ZDNet](https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/), [SRF](https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt), [ACM TechNews](https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html), [heise](https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html), [...](https://www.google.com/search?q=emv+eth+pin+visa))
+(coverage by [ETHZ](https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html), [The Hacker News](https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html), [ZDNet](https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/), [SRF](https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt), [ACM TechNews](https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html), [heise](https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html), [...](https://www.google.com/search?q=emv+eth+pin+visa))
 
 1. **Post-Collusion Security and Distance Bounding**<br />
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
@@ -93,6 +101,7 @@ The following are courses which I am/have been a lecturer or teaching assistant 
 
 Semester | Course | Institution
 -- | -- | --
+Spring 2021 | [Big Data for Engineers](https://systems.ethz.ch/education/courses/2021-spring/big-data-for-engineers.html) | ETH Zürich
 Autumn 2020 | [Information Security Lab](https://appliedcrypto.ethz.ch/education/courses/isl-autumn2020.html) | ETH Zürich
 Spring 2020 | [Information Systems for Engineers](https://www.systems.ethz.ch/courses/spring2020/ise) | ETH Zürich
 Autumn 2019 | [Algorithms, Probability, and Computing](https://www.ti.inf.ethz.ch/ew/courses/APC19/index.html) | ETH Zürich
@@ -116,8 +125,8 @@ Period | Position/Degree | Institution
 
 Year | Award/Grant | Awarder
 -- | -- | --
-2020 | [<i class="fas fa-award fs-point-9"></i> Best PhD thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html) | Security and Trust Management (STM) Working Group, European Research Consortium for Informatics and Mathematics ([ERCM](https://www.ercim.eu/))
-2020 | <i class="fas fa-award fs-point-9"></i> Best PhD thesis | Computer Science Department, University of Luxembourg
+2020 | [<i class="fas fa-award fs-point-9"></i> Best PhD thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html) | Security and Trust Management (STM) Working Group, European Research Consortium for Informatics and Mathematics ([ERCIM](https://www.ercim.eu/))
+2019 | <i class="fas fa-award fs-point-9"></i> Best PhD thesis | Computer Science Department, University of Luxembourg
 2015 | AFR-PhD grant (ref. 10188265) | Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
 
 ## Contact
