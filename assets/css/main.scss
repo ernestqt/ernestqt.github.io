@@ -101,7 +101,7 @@ a {
   top: 80px;
   color: gray;
   font-size: 13px;
-  width: $sidebar-width - 30px;
+  width: $sidebar-width - 20px;
   padding-right: 1.5em;
 
   #toc-wrapper, #news-wrapper {
@@ -605,8 +605,8 @@ table.colored {
 @media all and (min-width: 1000px) {
 
   #main {
-    padding-left: $sidebar-width + 70px;
-    padding-right: $sidebar-width + 70px;
+    padding-left: $sidebar-width + 60px;
+    padding-right: $sidebar-width + 60px;
   }
 
   #panel-wrapper {
@@ -617,8 +617,8 @@ table.colored {
 @media all and (min-width: 1300px) {
 
   #main {
-    padding-left: $sidebar-width + 100px;
-    padding-right: $sidebar-width + 100px;
+    padding-left: $sidebar-width + 90px;
+    padding-right: $sidebar-width + 90px;
   }
 }
 
