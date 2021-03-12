@@ -17,7 +17,7 @@
 @import "_colors/light-syntax";
 @import "_colors/dark-syntax";
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 @mixin set-visible($light-display, $dark-display) {
   [light-mode-invisible] {
@@ -67,13 +67,14 @@ body {
   max-width: $max-content-width;
   margin-left: auto;
   margin-right: auto;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
   background: var(--body-bg);
   color: var(--text-color);
   //-webkit-font-smoothing: antialiased;
   //-moz-osx-font-smoothing: grayscale;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -99,7 +100,7 @@ a {
   position: fixed;
   right: 30px;
   top: 80px;
-  color: gray;
+  color: var(--panel-text-color);
   font-size: 13px;
   width: $sidebar-width - 20px;
   padding-right: 1.5em;
@@ -135,7 +136,7 @@ a {
 
   #sidebar-bottom {
 		margin: 1em;
-    line-height: 1.75em;
+    line-height: 1.5em;
     color: var(--social-icon-text-color);
     
 		a {
@@ -161,7 +162,7 @@ a {
   background-color: dimgray; //var(--sidebar-text-color);
   border-radius: 50%;
   display: inline-block;
-  margin-top: .75em; //calc((1.5rem - 3px)/2);
+  margin-top: calc((1.5rem - 3px)/2);
   margin-right: 3px;
 }
 
@@ -207,7 +208,7 @@ a {
   a {
 		color: var(--sidebar-text-color);
     font-weight: bold;
-    font-size: 1.45em;
+    font-size: 1.6em;
     &:hover {
       color: white;
       text-decoration: none;
@@ -216,7 +217,7 @@ a {
 }
 
 #site-subtitle {
-  font-size: .9em;
+  font-size: 1em;
   padding-top: .75em;
   line-height: .75em;
 	color: var(--sidebar-text-color);

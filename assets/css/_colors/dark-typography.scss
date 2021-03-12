@@ -8,8 +8,8 @@
 
 @mixin dark-scheme {
   /* framework */
+  --main-wrapper-bg: rgb(30, 30, 33);
   --html-bg: var(--main-wrapper-bg);
-  --main-wrapper-bg: rgb(27, 27, 30);
   --body-bg: var(--main-wrapper-bg);
   --topbar-wrapper-bg: rgb(39, 40, 43);
   --search-wrapper-bg: rgb(34, 34, 39);
@@ -20,6 +20,7 @@
 
   /* common color */
   --text-color: #A0A0A0;//rgb(175, 176, 177);
+  --panel-text-color: #909090;
   --sidebar-text-color: rgb(175, 176, 177);
   --social-icon-text-color: rgb(175, 176, 177);
   --text-muted-color: rgb(107, 116, 124);

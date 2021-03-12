@@ -9,10 +9,10 @@ news: true
 ## About me
 
 I'm a postdoctoral researcher in Prof. Dr. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s [Information Security Group](http://www.infsec.ethz.ch/), within the Institute of Information Security at [ETH Zürich](https://www.ethz.ch/en). My research focuses on **formal verification of security protocols**, with particular interest in:
+* electronic payment security,
 * distance bounding protocols,
-* automated security analysis,
-* electronic payment and RFID/NFC security,
-* systems involving physical aspects.
+* machine-checkable security proofs,
+* cyber-physical systems.
 
 ## Publications
 
@@ -24,75 +24,73 @@ The following are chronological lists of my published/accepted works, some liste
 **Bypassing the PIN in non-Visa cards by Using Them for Visa Transactions**<br />
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 *30th USENIX Security Symposium, 2021*<br />
-([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/USENIX21.pdf)) 
-([<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/)) 
-([<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/8d7UgIiMRBU))
+([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/USENIX21.pdf) \| 
+[<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/) \| 
+[<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/8d7UgIiMRBU))
 
 1. **The EMV Standard: Break, Fix, Verify**<br />
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 *42nd IEEE Symposium on Security and Privacy (S&P), 2021*<br />
-([<i class="ai ai-arxiv fs-point-9"></i> pdf](https://arxiv.org/pdf/2006.08249.pdf))
-<!--([doi]()) -->
-<!--([bibtex]()) -->
-([<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/))
-([<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/JyUsMLxCCt8))
+([<i class="far fa-file-pdf fs-point-9"></i> pdf (arXiv)](https://arxiv.org/pdf/2006.08249.pdf) \|
+[<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/) \|
+[<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/JyUsMLxCCt8))
 
 1. **Post-Collusion Security and Distance Bounding**<br />
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
 *26th ACM SIGSAC Conference on Computer and Communications Security (CCS), 2019*<br />
-([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/CCS19.pdf)) 
-([<i class="ai ai-acmdl fs-point-9"></i> doi](https://doi.org/10.1145/3319535.3345651)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/ccs/MauwSTT19)) 
-([<i class="fab fa-github fs-point-9"></i> tamarin](https://github.com/jorgetp/dbverify))
+([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/CCS19.pdf) \|
+[<i class="ai ai-acmdl fs-point-9"></i> doi](https://doi.org/10.1145/3319535.3345651) \| 
+[<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/conf/ccs/MauwSTT19) \|
+[<i class="fab fa-github fs-point-9"></i> models](https://github.com/jorgetp/dbverify))
 
 1. **Automated Identification of Desynchronisation Attacks on Shared Secrets**<br />
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
 *23rd European Symposium on Research in Computer Security (ESORICS), 2018*<br />
-([<i class="ai ai-springer"></i> doi](https://doi.org/10.1007/978-3-319-99073-6_20)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/esorics/MauwSTT18))
+([<i class="ai ai-springer"></i> doi](https://doi.org/10.1007/978-3-319-99073-6_20) \|
+[<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/conf/esorics/MauwSTT18))
 
 1. **Distance-Bounding Protocols: Verification without Time and Location**<br />
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
 *39th IEEE Symposium on Security and Privacy (S&P), 2018*<br />
-([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/SP18.pdf)) 
-([<i class="ai ai-ieee"></i> doi](https://doi.org/10.1109/SP.2018.00001)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/sp/MauwSTT18)) 
-([<i class="fab fa-github fs-point-9"></i> tamarin](https://github.com/jorgetp/dbverify))
+([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/SP18.pdf) \|
+[<i class="ai ai-ieee"></i> doi](https://doi.org/10.1109/SP.2018.00001) \|
+[<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/conf/sp/MauwSTT18) \|
+[<i class="fab fa-github fs-point-9"></i> models](https://github.com/jorgetp/dbverify))
 
 1. **Optimality Results on the Security of Lookup-Based Protocols**<br />
 Sjouke Mauw, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
 *12th Radio Frequency Identification and IoT Security (RFIDSec), 2016*<br />
-([<i class="ai ai-springer"></i> doi](https://doi.org/10.1007/978-3-319-62024-4_10)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/rfidsec/MauwTT16))
+([<i class="ai ai-springer"></i> doi](https://doi.org/10.1007/978-3-319-62024-4_10) \|
+[<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/conf/rfidsec/MauwTT16))
 
 1. **A Class of Precomputation-Based Distance-Bounding Protocols**<br />
 Sjouke Mauw, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
 *1st IEEE European Symposium on Security and Privacy (EuroS&P), 2016*<br />
-([<i class="ai ai-ieee"></i> doi](https://doi.org/10.1109/EuroSP.2016.19)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/eurosp/MauwTT16))
+([<i class="ai ai-ieee"></i> doi](https://doi.org/10.1109/EuroSP.2016.19) \|
+[<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/conf/eurosp/MauwTT16))
 
 ### Journals
 
 1. **Multiobjective variable mesh optimization**<br />
 Yamisleydi Salgueiro, Jorge L. Toro, Rafael Bello, and Rafael Falcon<br />
 *Annals of Operations Research, 258(2), 2017*<br />
-([<i class="ai ai-springer"></i> doi](https://doi.org/10.1007/s10479-016-2221-5)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/journals/anor/SalgueiroTBF17))
+([<i class="ai ai-springer"></i> doi](https://doi.org/10.1007/s10479-016-2221-5) \|
+[<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/journals/anor/SalgueiroTBF17))
 
 1. **Noise Detection and Learning Based on Current Information**<br />
 Damaris Pascual-González, Fernando Daniel Vázquez Mesa, and Jorge Luis Toro Pozo<br />
 *Computación y Sistemas, 18(1), 2014*<br />
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.uni-trier.de/rec/bibtex/journals/cys/Pascual-GonzalezMP14))
+([<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/journals/cys/Pascual-GonzalezMP14))
 
 ### PhD thesis
 
 1. **Computational and Symbolic Analysis of Distance-Bounding Protocols**<br />
 Jorge Luis Toro Pozo<br />
 *Thesis, University of Luxembourg, 2019*<br />
-([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/thesis/thesis-jorge.pdf)) 
-([<i class="ai ai-dblp"></i> bibtex](https://dblp.org/rec/phd/basesearch/Pozo19.html?view=bibtex)) 
-([<i class='fas fa-link fs-point-8'/> permalink](http://hdl.handle.net/10993/39506)) 
-([<i class="fas fa-award fs-point-9"></i> 2020 STM Best PhD Thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html))
+([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/thesis/thesis-jorge.pdf) \| 
+[<i class="ai ai-dblp"></i> bib](https://dblp.org/rec/phd/basesearch/Pozo19.html?view=bibtex) \|
+[<i class='fas fa-link fs-point-8'/> permalink](http://hdl.handle.net/10993/39506) \|
+[<i class="fas fa-award fs-point-9"></i> best STM thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html))
 
 ## Teaching
 
@@ -133,7 +131,7 @@ Year | Award/Grant | Awarder
 Dr. Jorge L. Toro Pozo<br />
 <!--Institute of Information Security<br />-->
 Department of Computer Science, ETH Zürich<br />
-<i class="fas fa-map-marker-alt"></i> Universitätstrasse 6, 8092 Zürich, Switzerland<br />
-<i class="fas fa-building fs-point-9"></i> CNB, office [F 100.5](http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CNB&geschoss=F&raumNr=100.5&)<br />
-<i class="fas fa-phone fs-point-9"></i> +41 44 632 53 76‬<br />
-<i class="fas fa-address-card fs-point-9"></i> [ETH vCard](https://infsec.ethz.ch/people/detail/Toro%20Pozo.vcard.vcf?persid=260607&addressType=5)‬
+<i class="fas fa-map-marker-alt fs-point-9"></i> Universitätstrasse 6, 8092 Zürich, Switzerland<br />
+<i class="fas fa-building fs-point-8"></i> CNB, office [F 100.5](http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CNB&geschoss=F&raumNr=100.5&)<br />
+<i class="fas fa-phone fs-point-8"></i> +41 44 632 53 76‬<br />
+<i class="fas fa-address-card fs-point-8"></i> [ETH vCard](https://infsec.ethz.ch/people/detail/Toro%20Pozo.vcard.vcf?persid=260607&addressType=5)‬
