@@ -73,7 +73,7 @@ body {
   color: var(--text-color);
   //-webkit-font-smoothing: antialiased;
   //-moz-osx-font-smoothing: grayscale;
-	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+	//font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -104,10 +104,11 @@ a {
   font-size: .8rem;
   width: $sidebar-width - 20px;
   padding-right: 1.5em;
+  line-height: 1.4;
 
 	#toc-wrapper {
 		a {
-      //color: var(--panel-text-color);
+      color: var(--panel-text-color);
       font-size: .8rem;
 			font-weight: normal;
 		}
@@ -216,7 +217,7 @@ a {
   a {
 		color: var(--sidebar-text-color);
     font-weight: bold;
-    font-size: 1.45em;
+    font-size: 1.5em;
     &:hover {
       color: white;
       text-decoration: none;
@@ -225,7 +226,7 @@ a {
 }
 
 #site-subtitle {
-  font-size: .9em;
+  font-size: .95em;
   padding-top: .75em;
   line-height: .75em;
 	color: var(--sidebar-text-color);
@@ -315,15 +316,15 @@ h2 {
 
 h3 {
 	padding-top: .35rem;
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
 h4 {
-  font-size: 1.15em;
+  font-size: 1.2em;
 }
 
 h5 {
-  font-size: 1.05em;
+  font-size: 1.1em;
 }
 
 blockquote {
@@ -784,4 +785,21 @@ div {
       padding: .8rem 1rem;
     }
   }
+}
+
+/* posts' toc, override BS */
+nav[data-toggle=toc] .nav-link.active,
+nav[data-toggle=toc] .nav-link.active:focus,
+nav[data-toggle=toc] .nav-link.active:hover,
+nav[data-toggle=toc] .nav > li > a:focus,
+nav[data-toggle=toc] .nav > li > a:hover {
+  color: var(--toc-highlight)!important;
+  border-left-color: var(--toc-highlight)!important;
+  font-weight: bold!important;
+}
+
+nav[data-toggle="toc"] .nav .nav > li > .active,
+nav[data-toggle="toc"] .nav .nav > li > .active:hover,
+nav[data-toggle="toc"] .nav .nav > li > .active:focus {
+  font-weight: normal!important;
 }
