@@ -17,7 +17,7 @@
 @import "_colors/light-syntax";
 @import "_colors/dark-syntax";
 
-//@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 @mixin set-visible($light-display, $dark-display) {
   [light-mode-invisible] {
@@ -67,13 +67,13 @@ body {
   max-width: $max-content-width;
   margin-left: auto;
   margin-right: auto;
-  font-size: 17px;
-  line-height: 1.5;
+  //font-size: 16px;
+  //line-height: 1.5;
   background: var(--body-bg);
   color: var(--text-color);
   //-webkit-font-smoothing: antialiased;
   //-moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   //font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   //font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -101,9 +101,17 @@ a {
   right: 30px;
   top: 80px;
   color: var(--panel-text-color);
-  font-size: 13px;
+  font-size: .8rem;
   width: $sidebar-width - 20px;
   padding-right: 1.5em;
+
+	#toc-wrapper {
+		a {
+      //color: var(--panel-text-color);
+      font-size: .8rem;
+			font-weight: normal;
+		}
+	}
 
   #toc-wrapper, #news-wrapper {
     //border: 1px solid rgba(158, 158, 158, 0.17);
@@ -136,7 +144,7 @@ a {
 
   #sidebar-bottom {
 		margin: 1em;
-    line-height: 1.5em;
+    line-height: 1.75em;
     color: var(--social-icon-text-color);
     
 		a {
@@ -162,7 +170,7 @@ a {
   background-color: dimgray; //var(--sidebar-text-color);
   border-radius: 50%;
   display: inline-block;
-  margin-top: calc((1.5rem - 3px)/2);
+  margin-top: .75em; //calc((1.5rem - 3px)/2);
   margin-right: 3px;
 }
 
@@ -208,7 +216,7 @@ a {
   a {
 		color: var(--sidebar-text-color);
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.45em;
     &:hover {
       color: white;
       text-decoration: none;
@@ -217,7 +225,7 @@ a {
 }
 
 #site-subtitle {
-  font-size: 1em;
+  font-size: .9em;
   padding-top: .75em;
   line-height: .75em;
 	color: var(--sidebar-text-color);
@@ -286,9 +294,8 @@ a {
 /*--- Typography ---*/
 
 h1, h2, h3, h4, h5 {
-  //font-weight: bold;
-  padding-top: 1rem;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-weight: normal;
+  //font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -297,23 +304,26 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1.75em;
-}
-
-h2 {
+	padding-top: 1.25rem;
   font-size: 1.6em;
 }
 
-h3 {
-  font-size: 1.4em;
+h2 {
+	padding-top: 1.25rem;
+  font-size: 1.45em;
 }
 
-h4 {
+h3 {
+	padding-top: .35rem;
   font-size: 1.25em;
 }
 
-h5 {
+h4 {
   font-size: 1.15em;
+}
+
+h5 {
+  font-size: 1.05em;
 }
 
 blockquote {

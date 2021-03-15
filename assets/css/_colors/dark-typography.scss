@@ -24,7 +24,7 @@
   --sidebar-text-color: rgb(175, 176, 177);
   --social-icon-text-color: rgb(175, 176, 177);
   --text-muted-color: rgb(107, 116, 124);
-  --link-color: rgb(150, 180, 210);
+  --link-color: rgb(150, 180, 215);
   --link-underline-color: rgb(82, 108, 150);
   --main-border-color: rgb(44, 45, 45);
   --button-bg: rgb(39, 40, 33);
@@ -57,7 +57,7 @@
   --btn-paginator-shadow: var(--main-wrapper-bg);
 
   /* Posts */
-  --toc-highlight: rgb(116, 178, 243);
+  --toc-highlight: var(--link-color);//rgb(116, 178, 243);
   --tag-bg: rgb(41, 40, 40);
   --tag-hover: rgb(43, 56, 62);
   --tb-odd-bg: rgba(52, 53, 42, 0.52); /* odd rows of the posts' table */
@@ -71,25 +71,10 @@
   --card-border-color: var(--main-wrapper-bg);
   --card-box-shadow: var(--main-wrapper-bg);
 
-  /* tags */
-  --tag-border: rgb(59, 79, 88);
-  --tag-shadow: rgb(32, 33, 33);
-  --search-tag-bg: var(--tag-bg);
-
   --dash-color: rgb(63, 65, 68);
-
-  /* categories */
-  --categories-border: rgb(64, 66, 69);
-  --categories-hover-bg: rgb(73, 75, 76);
-
-  /* archives */
-  --timeline-node-bg: rgb(150, 152, 156);
-  --timeline-color: rgb(63, 65, 68);
-  --timeline-year-dot-color: var(--timeline-color);
 
   /* Footer */
   ---footer-link: rgb(146, 146, 146);
-
 
   hr {
     border-color: var(--main-border-color);
