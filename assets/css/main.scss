@@ -293,7 +293,8 @@ a {
 
 /*--- Typography ---*/
 
-h1, h2, h3/*, h4, h5*/ {
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
   //font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 
@@ -303,22 +304,22 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	padding-top: 1.25rem;
-  font-size: 1.5em;
+	padding-top: 1.2rem;
+  font-size: 1.6em;
 }
 
 h2 {
-	padding-top: 1.25rem;
-  font-size: 1.37em;
+	padding-top: 1.3rem;
+  font-size: 1.45em;
 }
 
 h3 {
 	padding-top: .3rem;
-  font-size: 1.22em;
+  font-size: 1.3em;
 }
 
 h4 {
-  font-size: 1.17em;
+  font-size: 1.2em;
 }
 
 h5 {

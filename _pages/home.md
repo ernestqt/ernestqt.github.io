@@ -11,7 +11,7 @@ news: true
 I'm a postdoctoral researcher in Prof. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s Information Security Group, within the Institute of Information Security at [ETH Zürich](https://www.ethz.ch/en). Prior to that, I conducted my PhD at the University of Luxembourg, under the supervision of Prof. [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and Dr. [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua). 
 
 My research focuses on **formal verification of security protocols**, with particular interest in:
-<ul style="margin-top: -.75em">
+<ul style="margin-top: -.6em">
 <li> electronic payment security, </li>
 <li> distance bounding protocols, </li>
 <li> machine-checkable security proofs, </li>
