@@ -8,11 +8,15 @@ news: true
 
 ## About me
 
-I'm a postdoctoral researcher in Prof. Dr. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s [Information Security Group](http://www.infsec.ethz.ch/), within the Institute of Information Security at [ETH Zürich](https://www.ethz.ch/en). My research focuses on **formal verification of security protocols**, with particular interest in:
-* electronic payment security,
-* distance bounding protocols,
-* machine-checkable security proofs,
-* cyber-physical systems.
+I'm a postdoctoral researcher in Prof. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s Information Security Group, within the Institute of Information Security at [ETH Zürich](https://www.ethz.ch/en). Prior to that, I conducted my PhD at the University of Luxembourg, under the supervision of Prof. [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and Dr. [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua). 
+
+My research focuses on **formal verification of security protocols**, with particular interest in:
+<ul style="margin-top: -.75em">
+<li> electronic payment security, </li>
+<li> distance bounding protocols, </li>
+<li> machine-checkable security proofs, </li>
+<li> cyber-physical systems. </li>
+</ul>
 
 ## Publications
 
@@ -31,7 +35,7 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 1. **The EMV Standard: Break, Fix, Verify**<br />
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 *42nd IEEE Symposium on Security and Privacy (S&P), 2021*<br />
-([<i class="far fa-file-pdf fs-point-9"></i> pdf (arXiv)](https://arxiv.org/pdf/2006.08249.pdf) \| 
+([<i class="far fa-file-pdf fs-point-9"></i> pdf (arxiv)](https://arxiv.org/pdf/2006.08249.pdf) \| 
 [<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/) \| 
 [<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/JyUsMLxCCt8))
 
@@ -112,7 +116,7 @@ Spring 2013,14,15 | Data Structures | Universidad de Las Tunas
 Period | Position/Degree | Institution
 -- | -- | --
 6/2019–present | Postdoctoral researcher | ETH Zürich<!--<br />(in D. Basin's [Infosec](http://www.infsec.ethz.ch/) group)-->
-6/2015–5/2019 | <i class="fa fa-graduation-cap"></i> PhD in Computer Science | University of Luxembourg<br />(supervision by [S. Mauw](https://satoss.uni.lu/sjouke/) and [R. Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua))
+6/2015–5/2019 | <i class="fa fa-graduation-cap"></i> PhD in Computer Science | University of Luxembourg
 9/2012–5/2015 | Lecturer in Computer Science | Universidad de Las Tunas
 9/2012–5/2015 | Software engineer | Univ. de Las Tunas' SoftDev
 9/2013–12/2014 | <i class="fa fa-graduation-cap"></i> MSc in Applied Computer Science | Universidad de Las Tunas
