@@ -1,10 +1,3 @@
----
-title: Activities | Jorge Toro
-layout: default
-permalink: /act/
-toc: true
----
-
 ## Activities
 
 [Not up to date]

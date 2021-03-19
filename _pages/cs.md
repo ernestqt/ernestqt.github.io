@@ -1,10 +1,3 @@
----
-title: Top CS confs & journals | Jorge Toro
-layout: default
-permalink: /cs/
-toc: true
----
-
 # Top CS confs & journals
 
 Top-tier Computer Science conferences and journals, taken from [csrankings.org](http://csrankings.org).

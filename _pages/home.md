@@ -98,7 +98,7 @@ Jorge Luis Toro Pozo<br />
 
 ## Teaching
 
-The following are courses which I am/have been a lecturer or teaching assistant of.
+I have been part of the teaching team for the following courses (2016 to date).
 
 Semester | Course | Institution
 -- | -- | --
@@ -108,8 +108,9 @@ Spring 2020 | Information Systems for Engineers | ETH Zürich
 Autumn 2019 | [Algorithms, Probability, and Computing](https://www.ti.inf.ethz.ch/ew/courses/APC19/index.html) | ETH Zürich
 Winter 2016,17,18 | [Security Protocols](https://satoss.uni.lu/courses/securityprotocols/) | University of Luxembourg
 Summer 2017 | Information Security Basics | University of Luxembourg
-Autumn 2012,13 | Operating Systems | Universidad de Las Tunas
-Spring 2013,14,15 | Data Structures | Universidad de Las Tunas
+
+<!-- Autumn 2012,13 | Operating Systems | Universidad de Las Tunas
+Spring 2013,14,15 | Data Structures | Universidad de Las Tunas-->
 
 ## Career & education
 

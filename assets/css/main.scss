@@ -98,7 +98,7 @@ a {
 #panel-wrapper {
   position: fixed;
   right: 30px;
-  top: 80px;
+  top: 70px;
   color: var(--panel-text-color);
   font-size: .8rem;
   width: $sidebar-width - 20px;
@@ -310,12 +310,12 @@ h1 {
 
 h2 {
 	padding-top: 1.3rem;
-  font-size: 1.45em;
+  font-size: 1.5em;
 }
 
 h3 {
 	padding-top: .3rem;
-  font-size: 1.3em;
+  font-size: 1.35em;
 }
 
 h4 {
@@ -587,7 +587,7 @@ table.colored {
 }
 
 #main {
-  padding-top: 3.5em;
+  padding-top: 3.3em;
   padding-left: 1.35em;
   padding-right: 1.35em;
 }
@@ -596,7 +596,7 @@ table.colored {
 @media all and (min-width: 768px) {
 
   #main {
-    padding-top: 2.5em;
+    padding-top: 1.3em;
     padding-left: $sidebar-width + 50px;
     padding-right: 50px;
   }
@@ -614,6 +614,7 @@ table.colored {
 @media all and (min-width: 1000px) {
 
   #main {
+    padding-top: 2.3em;
     padding-left: $sidebar-width + 60px;
     padding-right: $sidebar-width + 60px;
   }
@@ -802,5 +803,5 @@ nav[data-toggle="toc"] .nav .nav > li > .active:focus {
 }
 
 b, strong, thead>tr>th, .fw-600 {
-	font-weight: 600;
+	//font-weight: 600;
 }
