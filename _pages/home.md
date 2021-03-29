@@ -8,10 +8,10 @@ news: true
 
 ## About me
 
-I'm a postdoctoral researcher in Prof. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s Information Security Group, within the Institute of Information Security at [ETH Zürich](https://www.ethz.ch/en). Prior to that, I conducted my PhD at the University of Luxembourg, under the supervision of Prof. [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and Dr. [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua). 
+I'm a postdoctoral researcher in Prof. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s [Information Security Group](https://infsec.ethz.ch/), within the Institute for Information Security at ETH Zürich. I conducted a PhD in Computer Science at the University of Luxembourg, under the supervision of Prof. [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua).
 
 My research focuses on **formal verification of security protocols**, with particular interest in:
-<ul style="margin-top: -.6em">
+<ul style="margin-top: -.5em">
 <li> electronic payment security, </li>
 <li> distance bounding protocols, </li>
 <li> machine-checkable security proofs, </li>
@@ -20,7 +20,7 @@ My research focuses on **formal verification of security protocols**, with parti
 
 ## Publications
 
-The following are chronological lists of my published/accepted works, some listed also on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=mF6Rm5oAAAAJ). All my conference papers use alphabetical author ordering.
+The following are my published/accepted works, some of which are also listed on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=mF6Rm5oAAAAJ). My conference papers use alphabetical author ordering.
 
 ### Conferences
 
@@ -30,19 +30,21 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 *30th USENIX Security Symposium, 2021*<br />
 ([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/USENIX21.pdf) \| 
 [<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/) \| 
-[<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/8d7UgIiMRBU))
+[<i class="fab fa-github fs-point-9"></i> models](https://github.com/EMVrace/EMVerify-PAN-routing) \| 
+[<i class="fab fa-youtube fs-point-8"></i> demo](https://youtu.be/8d7UgIiMRBU))
 
 1. **The EMV Standard: Break, Fix, Verify**<br />
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 *42nd IEEE Symposium on Security and Privacy (S&P), 2021*<br />
 ([<i class="far fa-file-pdf fs-point-9"></i> pdf (arxiv)](https://arxiv.org/pdf/2006.08249.pdf) \| 
 [<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/) \| 
-[<i class="fab fa-youtube fs-point-8"></i> attack demo](https://youtu.be/JyUsMLxCCt8))
+[<i class="fab fa-github fs-point-9"></i> models](https://github.com/EMVrace/EMVerify) \| 
+[<i class="fab fa-youtube fs-point-8"></i> demo](https://youtu.be/JyUsMLxCCt8))
 
 1. **Post-Collusion Security and Distance Bounding**<br />
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
 *26th ACM SIGSAC Conference on Computer and Communications Security (CCS), 2019*<br />
-([<i class="far fa-file-pdf fs-point-9"></i> pdf](/assets/files/papers/CCS19.pdf) \| 
+([<i class="far fa-file-pdf fs-point-9"></i> pdf](https://drive.google.com/file/d/1gm_eA_DBNoX-P_e6n5Vj7BUOa6BG4PCu/view?usp=sharing) \| 
 [<i class="ai ai-acmdl fs-point-9"></i> doi](https://doi.org/10.1145/3319535.3345651) \| 
 [<i class="ai ai-dblp"></i> bib](https://dblp.uni-trier.de/rec/bibtex/conf/ccs/MauwSTT19) \| 
 [<i class="fab fa-github fs-point-9"></i> models](https://github.com/jorgetp/dbverify))
