@@ -39,7 +39,7 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br />
 ([<i class="far fa-file-pdf fs-point-9"></i> pdf (arxiv)](https://arxiv.org/pdf/2006.08249.pdf) \| 
 [<i class='fas fa-link fs-point-8'/> webpage](https://emvrace.github.io/) \| 
 [<i class="fab fa-github fs-point-9"></i> models](https://github.com/EMVrace/EMVerify) \| 
-[<i class="fab fa-youtube fs-point-8"></i> demo](https://youtu.be/JyUsMLxCCt8))
+[<i class="fab fa-youtube fs-point-8"></i> teaser](https://youtu.be/HrBgPIiqqf8))
 
 1. **Post-Collusion Security and Distance Bounding**<br />
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br />
