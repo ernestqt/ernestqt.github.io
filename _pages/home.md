@@ -44,7 +44,7 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
 [<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify) \| 
 [<i class="fab fa-youtube fs-point-8"/> teaser](https://youtu.be/HrBgPIiqqf8) \|
 [<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/JyUsMLxCCt8)--> \|
-**[<i class="fas fa-award fs-point-9"/> best practical paper](https://twitter.com/thorstenholz/status/1396852408442044419)**)
+**[<i class="fas fa-award fs-point-9"/> best practical paper](https://www.ieee-security.org/TC/SP2021/awards.html)**)
 
 1. **Post-Collusion Security and Distance Bounding**<br>
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
