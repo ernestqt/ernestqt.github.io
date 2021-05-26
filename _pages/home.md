@@ -20,7 +20,7 @@ My research focuses on **formal verification of security protocols**, with parti
 
 ## Publications
 
-The following are my published/accepted works, some of which are also listed on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=mF6Rm5oAAAAJ). My conference papers use alphabetical author ordering.
+The following are my accepted works, some of which are also listed on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=mF6Rm5oAAAAJ). My conference papers use alphabetical author ordering.
 
 ### Conferences
 
@@ -31,18 +31,20 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
 <!--([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/papers/USENIX21.pdf) \| -->
 ([<i class="far fa-file-pdf fs-point-9"/> pdf](https://www.usenix.org/system/files/sec21fall-basin.pdf) \| 
 [<i class="fas fa-download fs-point-7"/> bibtex](https://www.usenix.org/biblio/export/bibtex/272165) \|
-[<i class="fas fa-link fs-point-8"/> webpage](https://emvrace.github.io/) \| 
+[<i class="fas fa-link fs-point-8"/> webpage](https://emvrace.github.io/)<!-- \| 
 [<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify-PAN-routing) \| 
-[<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/8d7UgIiMRBU))
+[<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/8d7UgIiMRBU)-->)
 
 1. **The EMV Standard: Break, Fix, Verify**<br>
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
 *42nd IEEE Symposium on Security and Privacy (S&P), 2021*<br>
-([<i class="far fa-file-pdf fs-point-9"/> pdf (arxiv)](https://arxiv.org/pdf/2006.08249.pdf) \| 
+([<i class="ai ai-arxiv"/> pdf](https://arxiv.org/pdf/2006.08249.pdf) \| 
 [<i class="fas fa-link fs-point-8"/> bibtex](https://www.computer.org/csdl/api/v1/citation/bibtex/proceedings/1mbmGIGBpK0/893400a629) \| 
-[<i class="fas fa-link fs-point-8"/> webpage](https://emvrace.github.io/) \| 
+[<i class="fas fa-link fs-point-8"/> webpage](https://emvrace.github.io/)<!-- \| 
 [<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify) \| 
-[<i class="fab fa-youtube fs-point-8"/> teaser](https://youtu.be/HrBgPIiqqf8))
+[<i class="fab fa-youtube fs-point-8"/> teaser](https://youtu.be/HrBgPIiqqf8) \|
+[<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/JyUsMLxCCt8)--> \|
+**[<i class="fas fa-award fs-point-9"/> best practical paper](https://twitter.com/thorstenholz/status/1396852408442044419)**)
 
 1. **Post-Collusion Security and Distance Bounding**<br>
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
@@ -99,7 +101,7 @@ Jorge Luis Toro Pozo<br>
 ([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/thesis/thesis-jorge.pdf) \| 
 [<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.org/rec/phd/basesearch/Pozo19.html?view=bibtex) \| 
 [<i class='fas fa-link fs-point-8'/> permalink](http://hdl.handle.net/10993/39506) \| 
-[<i class="fas fa-award fs-point-9"/> best STM thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html))
+**[<i class="fas fa-award fs-point-9"/> best STM thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html)**)
 
 ## Teaching
 
@@ -132,8 +134,9 @@ Period | Position/Degree | Institution
 
 Year | Award/Grant | Awarder
 -- | -- | --
-2020 | [<i class="fas fa-award fs-point-9"/> Best PhD thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html) | Security and Trust Management (STM) Working Group, European Research Consortium for Informatics and Mathematics ([ERCIM](https://www.ercim.eu/))
-2019 | <i class="fas fa-award fs-point-9"/> Best PhD thesis | Computer Science Department, University of Luxembourg
+2021 | <i class="fas fa-award fs-point-9"/> Best Practical Paper | 42<sup>nd</sup> IEEE Symposium on Security and Privacy ([S&P'21](https://www.ieee-security.org/TC/SP2021/index.html))
+2020 | <i class="fas fa-award fs-point-9"/> Best STM PhD Thesis | European Research Consortium for Informatics and Mathematics ([ERCIM](https://www.ercim.eu/))
+2019 | <i class="fas fa-award fs-point-9"/> Best PhD Thesis | Department of Computer Science, University of Luxembourg
 2015 | AFR-PhD grant (ref. 10188265) | Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
 
 ## Contact

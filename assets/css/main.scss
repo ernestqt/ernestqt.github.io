@@ -798,3 +798,16 @@ nav[data-toggle="toc"] .nav .nav > li > .active:focus {
 b, strong, thead>tr>th, .fw-600 {
 	//font-weight: 600;
 }
+
+.colored {
+  p {
+    padding-left: 8px;
+    padding-right: 8px;
+    &:nth-child(2n) {
+      background-color: var(--tb-even-bg);
+    }
+    &:nth-child(2n + 1) {
+      background-color: var(--tb-odd-bg);
+    }
+  }
+}
