@@ -160,7 +160,7 @@ a {
 .dot {
   height: 3px;
   width: 3px;
-  background-color: dimgray; //var(--sidebar-text-color);
+  background: dimgray; //var(--sidebar-text-color);
   border-radius: 50%;
   display: inline-block;
   margin-top: .75em; //calc((1.5rem - 3px)/2);
@@ -240,7 +240,7 @@ a {
 
 #topbar {
   height: $topbar-height;
-  background-color: rgb(39, 40, 43);
+  background: var(--sidebar-bg);
   height: $topbar-height;
   position: fixed;
   width: 100%;
@@ -348,7 +348,7 @@ sup {
       margin-bottom: -.8em;
     }
     &:target>p {
-      background-color: var(--footnote-target-bg);
+      background: var(--footnote-target-bg);
       width: fit-content;
       -webkit-transition: background-color 1.5s ease-in-out;
       /* Safari prior 6.1 */
@@ -365,7 +365,7 @@ sup {
     transition: background-color 1.5s ease-in-out;
   }
   @at-root sup:target>a#{&} {
-    background-color: var(--footnote-target-bg);
+    background: var(--footnote-target-bg);
     padding: 0 2px;
   }
 }
@@ -448,13 +448,13 @@ table {
     border-bottom: solid 2px rgba(210, 215, 217, 0.75);
     +tbody tr {
       &:nth-child(2n) {
-        background-color: var(--tb-even-bg);
+        background: var(--tb-even-bg);
       }
       &:last-child:nth-child(2n) {
         border-bottom: solid 1px var(--tb-even-border-color);
       }
       &:nth-child(2n + 1) {
-        background-color: var(--tb-odd-bg);
+        background: var(--tb-odd-bg);
       }
     }
     th {
@@ -471,10 +471,10 @@ table {
 table.colored {
   tbody tr {
     &:nth-child(2n) {
-      background-color: var(--tb-even-bg);
+      background: var(--tb-even-bg);
     }
     &:nth-child(2n + 1) {
-      background-color: var(--tb-odd-bg);
+      background: var(--tb-odd-bg);
     }
   }
 }
@@ -804,10 +804,10 @@ b, strong, thead>tr>th, .fw-600 {
     padding-left: 8px;
     padding-right: 8px;
     &:nth-child(2n) {
-      background-color: var(--tb-even-bg);
+      background: var(--tb-even-bg);
     }
     &:nth-child(2n + 1) {
-      background-color: var(--tb-odd-bg);
+      background: var(--tb-odd-bg);
     }
   }
 }
