@@ -44,7 +44,7 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
 [<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify) \| 
 [<i class="fab fa-youtube fs-point-8"/> teaser](https://youtu.be/HrBgPIiqqf8) \|
 [<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/JyUsMLxCCt8)--> \|
-**[<i class="fas fa-award fs-point-9"/> best practical paper](https://www.ieee-security.org/TC/SP2021/awards.html)**)
+**[<span style="color: green"><i class="fas fa-award fs-point-9"/> best practical paper</span>](https://www.ieee-security.org/TC/SP2021/awards.html)**)
 
 1. **Post-Collusion Security and Distance Bounding**<br>
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
@@ -101,7 +101,7 @@ Jorge Luis Toro Pozo<br>
 ([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/thesis/thesis-jorge.pdf) \| 
 [<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.org/rec/phd/basesearch/Pozo19.html?view=bibtex) \| 
 [<i class='fas fa-link fs-point-8'/> permalink](http://hdl.handle.net/10993/39506) \| 
-**[<i class="fas fa-award fs-point-9"/> best STM thesis](https://www.iit.cnr.it/STM-WG/contentpage06.html)**)
+**[<span style="color: green;"><i class="fas fa-award fs-point-9"/> best STM thesis</span>](https://www.iit.cnr.it/STM-WG/contentpage06.html)**)
 
 ## Teaching
 
