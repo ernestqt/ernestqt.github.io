@@ -57,9 +57,11 @@ body {
   border-radius: 12%;
 	padding: 7px;
   border: 1px solid WhiteSmoke;
+  opacity: .9;
 
   &:hover {
     //border-color: white;
+    opacity: 1;
   }
 
   img {
@@ -90,7 +92,7 @@ header {
 
 section {
   width: inherit;
-	max-width: calc(min(100%, 600px));
+	max-width: calc(min(100%, 610px));
 }
 
 footer {
