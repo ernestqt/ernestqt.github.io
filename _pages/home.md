@@ -16,7 +16,7 @@ My research focuses on **formal verification of security protocols**, with parti
 <li> formal methods, </li>
 <li> distance bounding protocols, </li>
 <li> electronic payment,</li>
-<li> cyber trust.</li>
+<li> cyber-trust.</li>
 </ul>
 
 ## Publications
