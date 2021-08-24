@@ -24,11 +24,12 @@ body {
 }
 
 .description {
-	margin-top: .75em;
+  font-size: .95em;
+	margin-top: .5em;
 }
 
 #navigation_menu {
-	margin-top: .75em;
+	margin-top: .85em;
 	padding-top: 1em;
 	border-top: 1px solid WhiteSmoke;
   line-height: .4em;
@@ -39,10 +40,10 @@ body {
 }
 
 #social {
-	margin-top: .75em;
+	margin-top: .85em;
 	padding-top: .75em;
 	border-top: 1px solid WhiteSmoke;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.35em;
 	a {
 		font-size: 1.5em;
 		margin-right: 8px;
@@ -87,12 +88,12 @@ h1, h2 {
 }
 
 header {
-  width: 180px;
+  width: 170px;
 }
 
 section {
   width: inherit;
-	max-width: calc(min(100%, 610px));
+	max-width: calc(min(100%, 620px));
 }
 
 footer {
