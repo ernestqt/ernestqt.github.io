@@ -56,7 +56,7 @@ html[mode=dark] {
 
 html {
   overflow-y: scroll; //fix jumping scrollbar
-  //background: var(--html-bg);
+  background: var(--html-bg);
 }
 
 body {
@@ -107,9 +107,9 @@ a {
 	}
 
   #toc-wrapper, #news-wrapper {
-    //border: 1px solid rgba(158, 158, 158, 0.17);
+    //border: 1px solid var(--border-color);
     //border-radius: 10px;
-    border-left: 1px solid rgba(158, 158, 158, 0.17);
+    border-left: 1px solid var(--border-color);
   }
 }
 
@@ -123,6 +123,7 @@ a {
   z-index: 99;
   background: var(--sidebar-bg);
   text-align: center;
+  //border-right: 1px solid var(--border-color);
   
   a {
     //@include sidebar-icon;
@@ -151,7 +152,7 @@ a {
     }
 
     a:hover, #mode-toggle-wrapper>i:hover {
-      color: white;
+      color: var(--sidebar-hover-color);
     }
 
   }
@@ -211,7 +212,7 @@ a {
     font-weight: bold;
     font-size: 1.55em;
     &:hover {
-      color: white;
+      color: var(--sidebar-hover-color);
       text-decoration: none;
     }
   }
@@ -227,7 +228,7 @@ a {
 		color: var(--sidebar-text-color);
   }
   a:hover {
-      color: white;
+      color: var(--sidebar-hover-color);
       text-decoration: none;
   }
 }
@@ -240,7 +241,7 @@ a {
 
 #topbar {
   height: $topbar-height;
-  background: var(--sidebar-bg);
+  background: var(--topbar-bg);
   height: $topbar-height;
   position: fixed;
   width: 100%;
@@ -297,13 +298,13 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	padding-top: 1.2rem;
-  font-size: 1.6em;
+	padding-top: 1.3rem;
+  font-size: 1.65em;
 }
 
 h2 {
 	padding-top: 1.3rem;
-  font-size: 1.5em;
+  font-size: 1.55em;
 }
 
 h3 {
@@ -312,11 +313,11 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 h5 {
-  font-size: 1.1em;
+  font-size: 1.15em;
 }
 
 blockquote {

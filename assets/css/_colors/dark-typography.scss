@@ -42,10 +42,14 @@
 
   /* Sidebar */
   --nav-cursor-color: rgb(183, 182, 182);
+  --border-color: rgba(158, 158, 158, 0.17);
   --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  --sidebar-hover-color: white;
 
   /* Top Bar */
   --topbar-text-color: var(--text-color);
+  --topbar-bg: radial-gradient(
+    circle, rgba(0, 57, 127, 1) 0%, rgba(30, 40, 55, 1) 100%);
 
   /* Home page */
   --post-list-text-color: rgb(175, 176, 177);

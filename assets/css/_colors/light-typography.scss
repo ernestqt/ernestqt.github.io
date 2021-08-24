@@ -38,9 +38,12 @@
   --nav-cursor-color: #fcfcfc;
   --sidebar-bg: radial-gradient(
     circle, rgba(0, 57, 127, 1) 0%, rgba(30, 40, 55, 1) 100%);
+  --border-color: rgba(158, 158, 158, 0.17);
+  --sidebar-hover-color: white;
 
   /* Topbar */
   --topbar-text-color: rgb(78, 78, 78);
+  --topbar-bg: var(--sidebar-bg);
 
   /* Home */
   --post-list-text-color: dimgray;

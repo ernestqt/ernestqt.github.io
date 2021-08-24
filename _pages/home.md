@@ -12,10 +12,11 @@ I'm a postdoctoral researcher in Prof. [David Basin](https://www.inf.ethz.ch/per
 
 My research focuses on **formal verification of security protocols**, with particular interest in:
 <ul style="margin-top: -.5em">
-<li> electronic payment security, </li>
+<li> (semi-)automated verification, </li>
+<li> formal methods, </li>
 <li> distance bounding protocols, </li>
-<li> machine-checkable security proofs, </li>
-<li> cyber-physical systems. </li>
+<li> electronic payment,</li>
+<li> cyber trust.</li>
 </ul>
 
 ## Publications
@@ -44,7 +45,7 @@ David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
 [<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify) \| 
 [<i class="fab fa-youtube fs-point-8"/> teaser](https://youtu.be/HrBgPIiqqf8) \|
 [<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/JyUsMLxCCt8)--> \|
-**[<span style="color: green"><i class="fas fa-award fs-point-9"/> best practical paper</span>](https://www.ieee-security.org/TC/SP2021/awards.html)**)
+**[<i class="fas fa-award fs-point-9"/> best practical paper award](https://www.ieee-security.org/TC/SP2021/awards.html)**)
 
 1. **Post-Collusion Security and Distance Bounding**<br>
 Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
@@ -101,7 +102,7 @@ Jorge Luis Toro Pozo<br>
 ([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/thesis/thesis-jorge.pdf) \| 
 [<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.org/rec/phd/basesearch/Pozo19.html?view=bibtex) \| 
 [<i class='fas fa-link fs-point-8'/> permalink](http://hdl.handle.net/10993/39506) \| 
-**[<span style="color: green;"><i class="fas fa-award fs-point-9"/> best STM thesis</span>](https://www.iit.cnr.it/STM-WG/contentpage06.html)**)
+**[<i class="fas fa-award fs-point-9"/> best STM thesis award](https://www.iit.cnr.it/STM-WG/contentpage06.html)**)
 
 ## Teaching
 
@@ -109,6 +110,7 @@ I have been part of the teaching team for the following courses (2016 to date).
 
 Semester | Course | Institution
 -- | -- | --
+Autum 2021 | [Applied Security Laboratory](https://infsec.ethz.ch/education/as2021/seclab.html) | ETH Zürich
 Spring 2021 | [Big Data for Engineers](https://systems.ethz.ch/education/courses/2021-spring/big-data-for-engineers.html) | ETH Zürich
 Autumn 2020 | Information Security Lab | ETH Zürich
 Spring 2020 | Information Systems for Engineers | ETH Zürich
@@ -126,7 +128,7 @@ Period | Position/Degree | Institution
 6/2019–present | Postdoctoral researcher | ETH Zürich<!--<br>(in D. Basin's [Infosec](http://www.infsec.ethz.ch/) group)-->
 6/2015–5/2019 | <i class="fa fa-graduation-cap"/> PhD in Computer Science | University of Luxembourg
 9/2012–5/2015 | Lecturer in Computer Science | Universidad de Las Tunas
-9/2012–5/2015 | Software engineer | Univ. de Las Tunas' SoftDev
+9/2012–5/2015 | Software engineer | SoftDev group (Univ. de Las Tunas)
 9/2013–12/2014 | <i class="fa fa-graduation-cap"/> MSc in Applied Computer Science | Universidad de Las Tunas
 9/2007–6/2012 | <i class="fa fa-graduation-cap"/> BSc in Computer Science | Universidad de Oriente
 
@@ -137,13 +139,12 @@ Year | Award/Grant | Awarder
 2021 | <i class="fas fa-award fs-point-9"/> Best Practical Paper | 42<sup>nd</sup> IEEE Symposium on Security and Privacy ([S&P'21](https://www.ieee-security.org/TC/SP2021/index.html))
 2020 | <i class="fas fa-award fs-point-9"/> Best STM PhD Thesis | European Research Consortium for Informatics and Mathematics ([ERCIM](https://www.ercim.eu/))
 2019 | <i class="fas fa-award fs-point-9"/> Best PhD Thesis | Department of Computer Science, University of Luxembourg
-2015 | AFR-PhD grant (ref. 10188265) | Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
+2015 | AFR-PhD grant | Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
 
 ## Contact
 
 Dr. Jorge L. Toro Pozo<br>
-<!--Institute of Information Security<br>-->
-Department of Computer Science, ETH Zürich<br>
+Institute of Information Security, ETH Zürich<br>
 <i class="fas fa-map-marker-alt"/> Universitätstrasse 6, 8092 Zürich, Switzerland<br>
 <i class="fas fa-building fs-point-9"/> [CNB F 100.5](http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CNB&geschoss=F&raumNr=100.5&)<br>
 <i class="fas fa-phone fs-point-9"/> +41 44 632 53 76‬<br>
