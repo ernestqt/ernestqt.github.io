@@ -1,31 +1,8 @@
-# The Site Settings
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT licensed
-
-
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-#--------------------------
-
 title: Jorge Toro
-position: Security researcher
-institution: <a href="https://www.ethz.ch/en">ETH Zürich</a>
-
-news:
-  - <span>[26-5-2021] </span> Our Oakland'21 paper won the <a href="https://www.ieee-security.org/TC/SP2021/awards.html">Best Practical Paper Award</a></span>!!!
-  - <span>[22-2-2021] </span> Our paper reporting a novel attack on non-Visa cards has been accepted for <a href="https://www.usenix.org/conference/usenixsecurity21">USENIX Security'21</a>.
-  - <span>[11-1-2021]</span> I'll be serving as a PC member for <a href="https://sites.nyuad.nyu.edu/wisec21/">ACM WiSec 2021</a>.
-  #- <span>[30-9-2020]</span> My PhD thesis award has been covered by this University of Luxembourg&apos;s <a href="https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim">article</a>.
-  #- <span>[11-9-2020]</span> Numerous news articles have covered our research on EMV, e.g. by <a href="https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html">ETH Zürich</a>, <a href="https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html">The Hacker News</a>, <a href="https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html">ACM TechNews</a>, <a href="https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html">heise</a>, <a href="https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt">SRF</a> and <a href="https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/">ZDNet</a>.
-  #- <span>[27-8-2020]</span> My thesis received the 2020 STM Best PhD Thesis <a href="https://www.iit.cnr.it/STM-WG/contentpage06.html">award</a>.
-  #- <span>[22-8-2020]</span> Our paper on EMV security has been accepted for <a href="https://www.ieee-security.org/TC/SP2021/index.html">Oakland S&P 2021</a>.
-  #- <span>[31-7-2020]</span> I've posted on <a href="https://twitter.com/jtoropozo/status/1289143037524955136">Twitter</a> and <a href="https://www.linkedin.com/posts/activity-6694908148270157824-8Xrj">LinkedIn</a> hashes of our most recent work, as a proof of timestamp.
-
-# Replace with your domain, e.g. 'https://username.github.io'
-url: 'https://jorgetp.github.io' #'protocol://domain'
-
-avatar: /assets/img/profile.jpg   # support internet resources
+logo: /assets/img/profile.jpg
+description: Postdoctoral Researcher<br /> <a href="">ETH Zurich</a>
+#google_analytics:
+theme: jekyll-theme-minimal
 
 social:
   email: yes #obfuscated with JS...check _includes/social.html
@@ -42,57 +19,11 @@ social:
   orcid:
     id: #0000-0001-6615-1600
     #hide_from_topbar: yes
-  
-#--------------------------
 
-# if your site type is Project Pages site, change below value to '/projectname'
-baseurl: ''
+navigation:
+  - <a href="#publications">Publications</a>
+  - <a href="#teaching">Teaching</a>
+  - <a href="#career--education">Career & education</a>
+  - <a href="#awards--grants">Awards & grants</a>
+  - <a href="#contact">Contact</a>
 
-# Prefer color scheme setting, available values:
-#
-#     dual   - Follow the system prefer color by default, and a toggle will display
-#              in the left bottom of Sidebar, which used for switch the theme between dark and light.
-#
-#     light  - Use the light color scheme
-#
-#     dark   - Use the dark color scheme
-#
-theme_mode: dual
-
-markdown: kramdown
-
-highlighter: rouge
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: 'highlight'
-    #default_lang: console
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
-
-sass:
-  sass_dir: /assets/css
-  style: compressed
-
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
-
-include: [_pages]
-
-exclude:
-  - vendor        # Avoid Jekyll mistakenly read the vender directory on Travis-CI's VM .
-  - Gemfile.lock
-  - Gemfile
-  - README.md
-  - LICENSE

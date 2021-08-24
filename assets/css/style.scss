@@ -1,0 +1,108 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+a:hover {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: inherit;
+}
+
+body {
+  font-size: 15px;
+  //line-height: 1.6em;
+}
+
+#title {
+  padding-left: 6px;
+	margin-top: 0px;
+  a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.description {
+	margin-top: .75em;
+}
+
+#navigation_menu {
+	margin-top: .75em;
+	padding-top: 1em;
+	border-top: 1px solid WhiteSmoke;
+  line-height: .4em;
+  a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+#social {
+	margin-top: .75em;
+	padding-top: .75em;
+	border-top: 1px solid WhiteSmoke;
+	margin-bottom: 1.5em;
+	a {
+		font-size: 1.5em;
+		margin-right: 8px;
+	}
+  a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+#avatar {
+  border-radius: 12%;
+	padding: 7px;
+  border: 1px solid WhiteSmoke;
+
+  &:hover {
+    //border-color: white;
+  }
+
+  img {
+    //width: 100%;
+    //height: 100%;
+  }
+} // #avatar
+
+h1, h2 {
+	margin-top: 1.5em;
+}
+
+.fs-point-9 {
+  font-size: .9em;
+}
+
+.fs-point-8 {
+  font-size: .8em;
+}
+
+.fs-point-7 {
+  font-size: .7em;
+}
+
+header {
+  width: 180px;
+}
+
+section {
+  width: inherit;
+	max-width: calc(min(100%, 600px));
+}
+
+footer {
+	margin-top: 2em;
+	position:inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, strong, bold, b {
+  color: #595959
+}
+
+table td:first-child {
+  white-space: nowrap;
+  //min-width: 6em;
+}

@@ -1,23 +1,26 @@
 ---
-title: Jorge Toro
 layout: default
-permalink: /
-toc: true
-news: true
 ---
-
-## About me
 
 I'm a postdoctoral researcher in Prof. [David Basin](https://www.inf.ethz.ch/personal/basin/)'s [Information Security Group](https://infsec.ethz.ch/) at ETH Zürich. I obtained a PhD in Computer Science from the University of Luxembourg in May 2019, developed under the supervision of Prof. [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua).
 
 My research focuses on **formal verification of security protocols**, with particular interest in:
-<ul style="margin-top: -.5em">
-<li> (semi-)automated verification, </li>
-<li> formal methods, </li>
-<li> distance bounding protocols, </li>
-<li> electronic payment,</li>
-<li> cyber-trust.</li>
-</ul>
+* (semi-)automated verification,
+* formal methods,
+* distance bounding protocols,
+* electronic payment,
+* cyber-trust.
+
+### Lastest news
+
+- [26-5-2021] Our Oakland'21 paper won the [Best Practical Paper Award](https://www.ieee-security.org/TC/SP2021/awards.html)!!!
+- [22-2-2021] Our paper reporting a novel attack on non-Visa cards has been accepted for [USENIX Security'21](https://www.usenix.org/conference/usenixsecurity21)
+- [11-1-2021] I'll be serving as a PC member for [ACM WiSec 2021](https://sites.nyuad.nyu.edu/wisec21/)
+- [30-9-2020] My PhD thesis award has been covered by this University of Luxembourg&apos;s [article](https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim)
+<div><!--- [11-9-2020] Numerous news articles have covered our research on EMV, e.g. by [ETH Zurich](https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html), [ACM TechNews](https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html#1130993), [Schweizer Radio und Fernsehen (SRF)](https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt), [The Hacker News](https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html), [ZDNet](https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/), [heise](https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html)
+- [27-8-2020] My thesis received the [2020 STM Best PhD Thesis award](https://www.iit.cnr.it/STM-WG/contentpage06.html)
+- [22-8-2020] Our paper on EMV security has been accepted for [Oakland S&P 2021](https://www.ieee-security.org/TC/SP2021/index.html)
+- [31-7-2020] I've posted on [Twitter](https://twitter.com/jtoropozo/status/1289143037524955136) and [LinkedIn](https://www.linkedin.com/posts/activity-6694908148270157824-8Xrj) hashes of our most recent work, as a proof of timestamp--></div>
 
 ## Publications
 
@@ -25,8 +28,7 @@ The following are my accepted works, some of which are also listed on [dblp](htt
 
 ### Conferences
 
-1. **Card Brand Mixup Attack:**<br>
-**Bypassing the PIN in non-Visa cards by Using Them for Visa Transactions**<br>
+1. **Card Brand Mixup Attack: Bypassing the PIN in non-Visa cards by Using Them for Visa Transactions**<br>
 David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
 *30th USENIX Security Symposium, 2021*<br>
 <!--([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/papers/USENIX21.pdf) \| -->
@@ -90,7 +92,7 @@ Yamisleydi Salgueiro, Jorge L. Toro, Rafael Bello, and Rafael Falcon<br>
 [<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/journals/anor/SalgueiroTBF17))
 
 1. **Noise Detection and Learning Based on Current Information**<br>
-Damaris Pascual-González, Fernando Daniel Vázquez Mesa, and Jorge Luis Toro Pozo<br>
+Damaris Pascual-González, Fernando D. Vázquez Mesa, and Jorge L. Toro Pozo<br>
 *Computación y Sistemas, 18(1), 2014*<br>
 ([<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/journals/cys/Pascual-GonzalezMP14))
 
@@ -110,7 +112,7 @@ I have been part of the teaching team for the following courses (2016 to date).
 
 Semester | Course | Institution
 -- | -- | --
-Autum 2021 | [Applied Security Laboratory](https://infsec.ethz.ch/education/as2021/seclab.html) | ETH Zürich
+Autumn 2021 | [Applied Security Laboratory](https://infsec.ethz.ch/education/as2021/seclab.html) | ETH Zürich
 Spring 2021 | [Big Data for Engineers](https://systems.ethz.ch/education/courses/2021-spring/big-data-for-engineers.html) | ETH Zürich
 Autumn 2020 | Information Security Lab | ETH Zürich
 Spring 2020 | Information Systems for Engineers | ETH Zürich

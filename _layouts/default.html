@@ -1,32 +1,54 @@
----
-layout: compress
-# Default layout
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT Licensed
----
-
 <!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% capture prefer_mode %}
-	{% if site.theme_mode != "dual" %}
-		mode="{{ site.theme_mode }}"
-	{% endif %}
-{% endcapture %}
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 id="title"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-<html lang="en" {{ prefer_mode }} >
-	
-	{% include head.html %}
-	{% include sidebar.html %}
-	{% include topbar.html %}
-	{% include panel.html %}
-	
-	<body data-spy="scroll" data-target="#toc">  
-		<div id="main">
-		  <!--<h1 data-toc-skip>{{ page.title }}</h1>-->			
-			{{ content }}			
-			{% include footer.html %}
-		</div>     
-	</body>
+        {% if site.logo %}
+          <img id="avatar" src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <p class="description">{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.navigation %}
+          <div id="navigation_menu">
+          {% for link in site.navigation %}
+            <p class="navigation_item">{{ link }}</p>
+          {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if site.social %}
+          <div id="social">
+          {% include social.html %}
+          </div>
+        {% endif %}
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
 </html>
