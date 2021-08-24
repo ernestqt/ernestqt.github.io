@@ -11,7 +11,7 @@ My research focuses on **formal verification of security protocols**, with parti
 * electronic payment,
 * cyber-trust.
 
-### Lastest news
+### Latest news
 
 - [26-5-2021] Our Oakland'21 paper won the [Best Practical Paper Award](https://www.ieee-security.org/TC/SP2021/awards.html)!!!
 - [22-2-2021] Our paper reporting a novel attack on non-Visa cards has been accepted for [USENIX Security'21](https://www.usenix.org/conference/usenixsecurity21)

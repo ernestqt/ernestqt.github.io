@@ -23,9 +23,13 @@ body {
   }
 }
 
-.description {
-  font-size: .95em;
+#tagline {
+  font-size: .9em;
 	margin-top: .5em;
+}
+
+#institution {
+  font-weight: bold;
 }
 
 #navigation_menu {
@@ -55,7 +59,7 @@ body {
 }
 
 #avatar {
-  border-radius: 12%;
+  border-radius: 13%;
 	padding: 7px;
   border: 1px solid WhiteSmoke;
   opacity: .9;
@@ -102,7 +106,7 @@ section {
 
 footer {
 	margin-top: 2em;
-	position:inherit;
+	position: inherit;
 }
 
 body, h1, h2, h3, h4, h5, h6, strong, bold, b {
@@ -111,5 +115,4 @@ body, h1, h2, h3, h4, h5, h6, strong, bold, b {
 
 table td:first-child {
   white-space: nowrap;
-  //min-width: 6em;
 }

@@ -24,7 +24,10 @@
           <img id="avatar" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p class="description">{{ site.description }}</p>
+        <p id="tagline">
+          <span id="position">{{ site.position }}</span><br />
+          <span id="institution">{{ site.institution }}</span>
+        </p>
 
         {% if site.navigation %}
           <div id="navigation_menu">

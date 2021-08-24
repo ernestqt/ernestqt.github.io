@@ -1,6 +1,7 @@
 title: Jorge Toro
 logo: /assets/img/profile.jpg
-description: Postdoctoral Researcher<br/><a href="https://ethz.ch/en.html">ETH Zurich</a>
+position: Postdoctoral Researcher
+institution: ETH Zürich
 #google_analytics:
 theme: jekyll-theme-minimal
 
