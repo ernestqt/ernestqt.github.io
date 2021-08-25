@@ -130,7 +130,7 @@ Period | Position/Degree | Institution
 6/2019–present | Postdoctoral researcher | ETH Zürich<!--<br>(in D. Basin's [Infosec](http://www.infsec.ethz.ch/) group)-->
 6/2015–5/2019 | <i class="fa fa-graduation-cap"/> PhD in Computer Science | University of Luxembourg
 9/2012–5/2015 | Lecturer in Computer Science | Universidad de Las Tunas
-9/2012–5/2015 | Software engineer | SoftDev group (Univ. de Las Tunas)
+9/2012–5/2015 | Software engineer | SoftDev group, Universidad de Las Tunas
 9/2013–12/2014 | <i class="fa fa-graduation-cap"/> MSc in Applied Computer Science | Universidad de Las Tunas
 9/2007–6/2012 | <i class="fa fa-graduation-cap"/> BSc in Computer Science | Universidad de Oriente
 
