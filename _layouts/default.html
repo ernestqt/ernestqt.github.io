@@ -21,8 +21,8 @@
         {% endif %}
 
         <p id="description">
-          {{ site.position }}{% if site.institution %}<br />
-          <span class="fs-point-9"><i class="fa fa-institution"></i> {% if site.institution.url %}<a href="https://ethz.ch/en.html">{% endif %}{{ site.institution.name }}{% if site.institution.url %}</a>{% endif %}{% if site.institution.country %}, {{ site.institution.country }}{% endif %}</span>{% endif %}
+          <span id="position">{{ site.position }}</span>{% if site.institution %}<br />
+          <span id="institution" class="fs-point-9"><i class="fa fa-institution"></i> {% if site.institution.url %}<a href="https://ethz.ch/en.html">{% endif %}{{ site.institution.name }}{% if site.institution.url %}</a>{% endif %}{% if site.institution.country %} &ndash; {{ site.institution.country }}{% endif %}</span>{% endif %}
         </p>
 
         {% if site.navigation %}
@@ -40,14 +40,18 @@
         {% endif %}
 
       </header>
-      <section>
+
+      <section id="main">
 
       {{ content }}
 
       <!--<footer>-->
       <p id="footer"><small>Hosted on GitHub Pages &mdash; Based on a theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       <!--</footer>-->
+      </section>
+
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
   </body>
 </html>

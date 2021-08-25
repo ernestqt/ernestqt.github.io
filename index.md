@@ -147,7 +147,7 @@ Year | Award/Grant | Awarder
 
 Dr. Jorge L. Toro Pozo<br>
 Institute of Information Security, ETH Zürich<br>
+Office [CNB F 100.5](http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CNB&geschoss=F&raumNr=100.5&)<br>
 <i class="fas fa-map-marker-alt"/> Universitätstrasse 6, 8092 Zürich, Switzerland<br>
-<i class="fas fa-building fs-point-9"/> [CNB F 100.5](http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CNB&geschoss=F&raumNr=100.5&)<br>
 <i class="fas fa-phone fs-point-9"/> +41 44 632 53 76‬<br>
 <i class="fas fa-address-card fs-point-9"/> [ETH vCard](https://infsec.ethz.ch/people/detail/Toro%20Pozo.vcard.vcf?persid=260607&addressType=5)‬

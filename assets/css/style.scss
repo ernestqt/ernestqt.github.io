@@ -3,23 +3,75 @@
 
 @import "jekyll-theme-minimal";
 
-a:hover {
-  text-decoration: underline;
-  font-style: normal;
-  font-weight: inherit;
+/* variables */
+$sidebar-width: 160px;
+$main-max-width: 610px;
+$body-text-size: 15px;
+
+/* light theme */
+$body-bg-color: inherit;
+$body-text-color: #595959;
+$link-color: #267cb9;
+$rule-color: WhiteSmoke;
+$table-rule-color: #e5e5e5;
+$table-even-row-bg-color: #f2f2f2;
+
+/* dark theme */
+/*$body-bg-color: rgb(30, 30, 33);
+$body-text-color: #A8A8A8;
+$link-color: rgb(150, 180, 210);
+$rule-color: #383838;
+$table-rule-color: #383838;
+$table-even-row-bg-color: #303030;*/
+
+/* css */
+body {
+  background-color: $body-bg-color;
+  font-size: $body-text-size;
 }
 
-body {
-  font-size: 15px;
-  //line-height: 1.6em;
+body, h1, h2, h3, h4, h5, h6, strong, bold, b, th, tr, td {
+  color: $body-text-color;
+}
+
+header {
+  width: $sidebar-width;
+}
+
+a {
+  color: $link-color;
+  &:hover {
+    color: $link-color;
+  }
+}
+
+#main {
+  width: inherit;
+  max-width: $main-max-width;//calc(min(100%, $main-width));
+  border: none;
+}
+
+footer, #footer {
+  margin-top: 3em;
+  position: inherit;
+}
+
+#main {
+  a:hover {
+    text-decoration: underline;
+    font-weight: inherit;
+  }
 }
 
 #title {
   padding-left: 6px;
 	margin-top: 0px;
-  a:hover {
-    font-weight: bold;
-    text-decoration: none;
+  font-size: 1.75em;
+  a {
+    color: $body-text-color;
+    &:hover {
+      color: $link-color;
+    }
   }
 }
 
@@ -33,31 +85,23 @@ body {
   line-height: .5em;
 	margin-top: 1em;
 	padding-top: 1em;
-	border-top: 1px solid WhiteSmoke;
-  a:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
+	border-top: 1px solid $rule-color;
 }
 
 #social {
-  border-top: 1px solid WhiteSmoke;
+  border-top: 1px solid $rule-color;
   padding-top: 1em;
 	margin-bottom: 1.5em;
 	a {
 		font-size: 1.5em;
 		margin-right: 8px;
 	}
-  a:hover {
-    font-weight: bold;
-    text-decoration: none;
-  }
 }
 
 #avatar {
   border-radius: 12%;
 	padding: 4px;
-  border: 1px solid WhiteSmoke;
+  border: 1px solid $rule-color;
   opacity: .9;
 
   &:hover {
@@ -94,24 +138,6 @@ h2 {
   font-size: .5em;
 }
 
-header {
-  width: 160px;
-}
-
-section {
-  width: inherit;
-	max-width: calc(min(100%, 610px));
-}
-
-footer, #footer {
-	margin-top: 3em;
-	position: inherit;
-}
-
-body, h1, h2, h3, h4, h5, h6, strong, bold, b {
-  color: #595959
-}
-
 table td:first-child {
   white-space: nowrap;
 }
@@ -121,13 +147,17 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: $table-even-row-bg-color;
 }
 
-thead{
+thead {
   tr:first-child {
-   border-bottom: 2px solid #e5e5e5;
+   border-bottom: 2px solid $table-rule-color;
   }
+}
+
+td {
+  border-bottom: 1px solid $table-rule-color;
 }
 
 /*h1, h2, h3, h4 {
