@@ -8,25 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
+    {% include head.html %}
   </head>
 
   <body>
     <div class="wrapper">
       <header>
-        <h1 id="title"><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        <h1 id="title"><a href="#">{{ site.title }}</a></h1>
 
         {% if site.logo %}
-          <img id="avatar" src="{{site.logo | relative_url}}" alt="Logo" />
+        <img id="avatar" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p id="tagline">
-          <span id="position">{{ site.position }}</span><br />
-          <span id="institution">{{ site.institution }}</span>
+        <p id="description">
+          {{ site.position }}{% if site.institution %}<br />
+          <span class="fs-point-9"><i class="fa fa-institution"></i> {% if site.institution.url %}<a href="https://ethz.ch/en.html">{% endif %}{{ site.institution.name }}{% if site.institution.url %}</a>{% endif %}{% if site.institution.country %}, {{ site.institution.country }}{% endif %}</span>{% endif %}
         </p>
 
         {% if site.navigation %}
@@ -48,12 +44,9 @@
 
       {{ content }}
 
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+      <!--<footer>-->
+      <p id="footer"><small>Hosted on GitHub Pages &mdash; Based on theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      <!--</footer>-->
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>

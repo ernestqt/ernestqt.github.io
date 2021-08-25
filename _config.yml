@@ -1,9 +1,12 @@
+theme: jekyll-theme-minimal
+
 title: Jorge Toro
 logo: /assets/img/profile.jpg
 position: Postdoctoral Researcher
-institution: ETH Zürich
-#google_analytics:
-theme: jekyll-theme-minimal
+institution:
+  name: ETH Zürich
+  url: https://ethz.ch/en.html
+  country: Switzerland
 
 social:
   email: yes #obfuscated with JS...check _includes/social.html
