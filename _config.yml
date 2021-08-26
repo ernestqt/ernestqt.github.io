@@ -9,7 +9,7 @@ institution:
   country: Switzerland
 
 social:
-  email: yes #obfuscated with JS...check _includes/social.html
+  email: <script>x = 'jorge.toro'; y = 'inf.ethz.ch'; document.write('<a href="mailto:' + x + '@' + y + '"><i class="fas fa-envelope"></i></a>');</script>
   github:
     username: jorgetp
   twitter:
@@ -22,7 +22,6 @@ social:
     link: #https://dblp.uni-trier.de/search?q=Jorge%20Toro%20Pozo
   orcid:
     id: #0000-0001-6615-1600
-    #hide_from_topbar: yes
 
 navigation:
   - <a href="#publications">Publications</a>

@@ -13,10 +13,11 @@ My research focuses on **formal verification of security protocols**, with parti
 
 ### Latest news
 
-- [26-5-2021] Our Oakland'21 paper won the [Best Practical Paper Award](https://www.ieee-security.org/TC/SP2021/awards.html)!!!
-- [22-2-2021] Our paper reporting a novel attack on non-Visa cards has been accepted for [USENIX Security'21](https://www.usenix.org/conference/usenixsecurity21)
-- [11-1-2021] I'll be serving as a PC member for [ACM WiSec 2021](https://sites.nyuad.nyu.edu/wisec21/)
-- [30-9-2020] My PhD thesis award has been covered by this University of Luxembourg&apos;s [article](https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim)
+* 26-5-2021: Our Oakland'21 paper won the [Best Practical Paper Award](https://www.ieee-security.org/TC/SP2021/awards.html)!!!
+* 22-2-2021: Our paper reporting a novel attack on non-Visa cards has been accepted for [USENIX Security'21](https://www.usenix.org/conference/usenixsecurity21)
+* 11-1-2021: I'll be serving as a PC member for [ACM WiSec 2021](https://sites.nyuad.nyu.edu/wisec21/)
+* 30-9-2020: My PhD thesis award has been covered by this University of Luxembourg&apos;s [article](https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim)
+
 <div><!--- [11-9-2020] Numerous news articles have covered our research on EMV, e.g. by [ETH Zurich](https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html), [ACM TechNews](https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html#1130993), [Schweizer Radio und Fernsehen (SRF)](https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt), [The Hacker News](https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html), [ZDNet](https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/), [heise](https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html)
 - [27-8-2020] My thesis received the [2020 STM Best PhD Thesis award](https://www.iit.cnr.it/STM-WG/contentpage06.html)
 - [22-8-2020] Our paper on EMV security has been accepted for [Oakland S&P 2021](https://www.ieee-security.org/TC/SP2021/index.html)

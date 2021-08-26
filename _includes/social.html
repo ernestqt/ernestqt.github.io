@@ -1,15 +1,5 @@
-<!--{% if site.social.email %}
-	<a href="mailto:{{ site.social.email | encode_email }}" {% if site.social.email.hide_from_topbar %} class="hide-from-topbar" {% endif %}>
-		<i class="fas fa-envelope pr-1"></i>
-	</a>
-{% endif %}-->
-
 {% if site.social.email %}
-	<script language="JavaScript">
-		user = 'jorge.toro';
-		domain = 'inf.ethz.ch';
-		document.write('<a href="mailto:' + user + '@' + domain + '"><i class="fas fa-envelope"></i></a>');
-	</script>	
+	{{ site.social.email }}
 {% endif %}
 
 {% if site.social.github.username %}
