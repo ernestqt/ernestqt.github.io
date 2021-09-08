@@ -17,9 +17,8 @@ Here you can find my CV and my PhD Thesis.
 
  --></div>
 
-## Publications 
+## Publications & Preprints
 
-### Preprints
 
 * **A Vectorization Scheme for Nonconvex Set Optimization Problems**<br>
 Gabriele Eichfelder, Ernest Quintana, and Stefan Rocktäschel<br>
@@ -30,21 +29,16 @@ Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *to appear in Applied Set-Valued Analysis and Optimization, 2021*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3))
 
-### 2021
 
 * **A steepest descent method in set optimization for set-valued mappings of finite cardinality**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Optimization Theory and Applications, 2021*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10957-021-01887-y))
 
-### 2020
-
 * **The Fermat rule for set optimization problems with Lipschitzian set-valued mappings**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12084v2) \| [<i class="fas fa-link fs-point-8"/> doi](http://www.yokohamapublishers.jp/online2/opjnca/vol21/p1137.html))
-
-### 2019
 
 * **A unified characterization of nonlinear scalarizing functionals in optimization**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
