@@ -27,44 +27,46 @@ Gabriele Eichfelder, Ernest Quintana, and Stefan Rocktäschel<br>
 
 * **On Clarke's Subdifferential of Marginal Functions**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
-* to appear in Applied Set-Valued Analysis and Optimization, 2021*<br>
+*to appear in Applied Set-Valued Analysis and Optimization, 2021*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3))
 
 ### 2021
 
 * **A steepest descent method in set optimization for set-valued mappings of finite cardinality**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
-* Optimization Theory and Applications, 2021*<br>
+*Optimization Theory and Applications, 2021*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10957-021-01887-y))
 
 ### 2020
 
 * **The Fermat rule for set optimization problems with Lipschitzian set-valued mappings**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
-* Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
+*Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12084v2) \| [<i class="fas fa-link fs-point-8"/> doi](http://www.yokohamapublishers.jp/online2/opjnca/vol21/p1137.html))
 
 ### 2019
 
 * **A unified characterization of nonlinear scalarizing functionals in optimization**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
-* Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
+*Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12091v1) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10013-019-00359-1))
 
 
-## Education
+## Career & Education
 
 Period | Position/Degree | Institution
 -- | -- | --
-10/2016-09/2020 | <i class="fa fa-graduation-cap"/> PhD in Mathematics | University of Luxembourg
-09/2014–05/2016 | <i class="fa fa-graduation-cap"/> MSc in Mathematics (concentration in Optimization) | University of Havana
+06/2020-present | Postdoctoral Researcher | Technical University of Ilmenau
+10/2016-09/2020 | <i class="fa fa-graduation-cap"/> PhD in Mathematics | Martin Luther University of Halle-Wittenberg
+09/2014–05/2016 | <i class="fa fa-graduation-cap"/> MSc in Mathematics (Optimization Program) | University of Havana
+09/2014–05/2016 | Lecturer in Mathematics | University of Las Villas
 09/2010–07/2014 | <i class="fa fa-graduation-cap"/> BSc in Mathematics | University of Las Villas
 
 
 ## Contact
 
 Dr. Ernest Quintana<br>
-Institute of Information Security, ETH Zürich<br>
+Institute of Mathematics, TU Ilmenau<br>
 Office C 235<br>
 <i class="fas fa-map-marker-alt"/> Weimarer Straße 25, 98693 Ilmenau, Germany<br>
 <i class="fas fa-phone fs-point-9"/> +49 3677 69-3255   ‬<br>
