@@ -2,153 +2,70 @@
 layout: default
 ---
 
-I'm a postdoctoral researcher in Prof. Gabriele Eichfelder  [Information Security Group](https://infsec.ethz.ch/) at ETH Zürich. I obtained a PhD in Mathematics from the Martin-Luther Universität Halle-Wittenberg in September 2020, developed under the supervision of Prof. [Christiane Tammer](https://satoss.uni.lu/sjouke/) and Prof. [Gemayqzel Bouza](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua).
+I'm a postdoctoral researcher in Prof. Dr. Gabriele Eichfelder's [Group for Mathematical Methods in Operations Research](https://www.tu-ilmenau.de/en/mmor) at TU Ilmenau. I obtained my PhD in Mathematics from the Martin Luther University of Halle-Wittenberg in September 2020 under the supervision of Prof. Dr. [Christiane Tammer](https://optimierung.mathematik.uni-halle.de/mitarbeiter/tammer/) and Prof. Dr. [Gemayqzel Bouza](https://www.researchgate.net/profile/Gemayqzel-Bouza-Allende).
 
-My research focuses on **formal verification of security protocols**, with particular interest in:
-* (semi-)automated verification,
-* formal methods,
-* distance bounding protocols,
-* electronic payment,
-* cyber-trust.
+My research topics lie within the **Optimization field**, with particular focus on:
+* Vector optimization
+* Set optimization
+* Optimization under uncertainty
+* Nonsmooth analysis
 
-### Latest news
+Here you can find my CV and my PhD Thesis.
+<div><!---### Latest news
 
-* 26-5-2021: Our Oakland'21 paper won the [Best Practical Paper Award](https://www.ieee-security.org/TC/SP2021/awards.html)!!!
-* 22-2-2021: Our paper reporting a novel attack on non-Visa cards has been accepted for [USENIX Security'21](https://www.usenix.org/conference/usenixsecurity21)
-* 11-1-2021: I'll be serving as a PC member for [ACM WiSec 2021](https://sites.nyuad.nyu.edu/wisec21/)
-* 30-9-2020: My PhD thesis award has been covered by this University of Luxembourg&apos;s [article](https://wwwen.uni.lu/fstm/news/jorge_toro_pozo_receives_the_best_phd_thesis_award_from_ercim)
+* 26-5-2021: News 1 [text](link)
 
-<div><!--- [11-9-2020] Numerous news articles have covered our research on EMV, e.g. by [ETH Zurich](https://ethz.ch/en/news-and-events/eth-news/news/2020/09/outsmarting-the-pin-code.html), [ACM TechNews](https://technews.acm.org/archives.cfm?fo=2020-09-sep/sep-04-2020.html#1130993), [Schweizer Radio und Fernsehen (SRF)](https://www.srf.ch/news/schweiz/eth-forscher-warnen-sicherheitsluecke-bei-visa-kreditkarten-entdeckt), [The Hacker News](https://thehackernews.com/2020/09/emv-payment-card-pin-hacking.html), [ZDNet](https://www.zdnet.com/article/academics-bypass-pins-for-visa-contactless-payments/), [heise](https://www.heise.de/security/meldung/Zahlen-ohne-PIN-Forscher-knacken-Visas-NFC-Bezahlfunktion-4881555.html)
-- [27-8-2020] My thesis received the [2020 STM Best PhD Thesis award](https://www.iit.cnr.it/STM-WG/contentpage06.html)
-- [22-8-2020] Our paper on EMV security has been accepted for [Oakland S&P 2021](https://www.ieee-security.org/TC/SP2021/index.html)
-- [31-7-2020] I've posted on [Twitter](https://twitter.com/jtoropozo/status/1289143037524955136) and [LinkedIn](https://www.linkedin.com/posts/activity-6694908148270157824-8Xrj) hashes of our most recent work, as a proof of timestamp--></div>
+ --></div>
 
-## Publications
+## Publications 
 
-The following are my accepted works, some of which are also listed on [dblp](https://dblp.org/search?q=jorge%20toro-pozo) and [Google Scholar](https://scholar.google.com/citations?user=mF6Rm5oAAAAJ). My conference papers use alphabetical author ordering.
+### Preprints
 
-### Conferences
+* **A Vectorization Scheme for Nonconvex Set Optimization Problems**<br>
+Gabriele Eichfelder, Ernest Quintana, and Stefan Rocktäschel<br>
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12274v1))
 
-1. **Card Brand Mixup Attack: Bypassing the PIN in non-Visa cards by Using Them for Visa Transactions**<br>
-David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
-*30th USENIX Security Symposium, 2021*<br>
-<!--([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/papers/USENIX21.pdf) \| -->
-([<i class="far fa-file-pdf fs-point-9"/> pdf](https://www.usenix.org/system/files/sec21fall-basin.pdf) \| 
-[<i class="fas fa-download fs-point-7"/> bibtex](https://www.usenix.org/biblio/export/bibtex/272165) \|
-[<i class="fas fa-link fs-point-8"/> webpage](https://emvrace.github.io/)<!-- \| 
-[<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify-PAN-routing) \| 
-[<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/8d7UgIiMRBU)-->)
+* **On Clarke's Subdifferential of Marginal Functions**<br>
+Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
+* to appear in Applied Set-Valued Analysis and Optimization, 2021*<br>
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3))
 
-1. **The EMV Standard: Break, Fix, Verify**<br>
-David Basin, Ralf Sasse, and Jorge Toro-Pozo<br>
-*42nd IEEE Symposium on Security and Privacy (S&P), 2021*<br>
-([<i class="ai ai-arxiv"/> pdf](https://arxiv.org/pdf/2006.08249.pdf) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://www.computer.org/csdl/api/v1/citation/bibtex/proceedings/1mbmGIGBpK0/893400a629) \| 
-[<i class="fas fa-link fs-point-8"/> webpage](https://emvrace.github.io/)<!-- \| 
-[<i class="fab fa-github fs-point-9"/> models](https://github.com/EMVrace/EMVerify) \| 
-[<i class="fab fa-youtube fs-point-8"/> teaser](https://youtu.be/HrBgPIiqqf8) \|
-[<i class="fab fa-youtube fs-point-8"/> demo](https://youtu.be/JyUsMLxCCt8)--> \|
-**[<i class="fas fa-award fs-point-9"/> best practical paper award](https://www.ieee-security.org/TC/SP2021/awards.html)**)
+### 2021
 
-1. **Post-Collusion Security and Distance Bounding**<br>
-Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
-*26th ACM SIGSAC Conference on Computer and Communications Security (CCS), 2019*<br>
-([<i class="far fa-file-pdf fs-point-9"/> pdf](https://drive.google.com/file/d/1gm_eA_DBNoX-P_e6n5Vj7BUOa6BG4PCu/view?usp=sharing) \| 
-[<i class="fas fa-link fs-point-8"/> doi](https://doi.org/10.1145/3319535.3345651) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/ccs/MauwSTT19) \| 
-[<i class="fab fa-github fs-point-9"/> models](https://github.com/jorgetp/dbverify))
+* **A steepest descent method in set optimization for set-valued mappings of finite cardinality**
+Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
+* Optimization Theory and Applications, 2021*<br>
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10957-021-01887-y))
 
-1. **Automated Identification of Desynchronisation Attacks on Shared Secrets**<br>
-Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
-*23rd European Symposium on Research in Computer Security (ESORICS), 2018*<br>
-([<i class="fas fa-link fs-point-8"/> doi](https://doi.org/10.1007/978-3-319-99073-6_20) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/esorics/MauwSTT18))
+### 2020
 
-1. **Distance-Bounding Protocols: Verification without Time and Location**<br>
-Sjouke Mauw, Zach Smith, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
-*39th IEEE Symposium on Security and Privacy (S&P), 2018*<br>
-([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/papers/SP18.pdf) \| 
-[<i class="fas fa-link fs-point-8"/> doi](https://doi.org/10.1109/SP.2018.00001) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/sp/MauwSTT18) \| 
-[<i class="fab fa-github fs-point-9"/> models](https://github.com/jorgetp/dbverify))
+* **The Fermat rule for set optimization problems with Lipschitzian set-valued mappings**
+Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
+* Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12084v2) \| [<i class="fas fa-link fs-point-8"/> doi](http://www.yokohamapublishers.jp/online2/opjnca/vol21/p1137.html))
 
-1. **Optimality Results on the Security of Lookup-Based Protocols**<br>
-Sjouke Mauw, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
-*12th Radio Frequency Identification and IoT Security (RFIDSec), 2016*<br>
-([<i class="fas fa-link fs-point-8"/> doi](https://doi.org/10.1007/978-3-319-62024-4_10) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/rfidsec/MauwTT16))
+### 2019
 
-1. **A Class of Precomputation-Based Distance-Bounding Protocols**<br>
-Sjouke Mauw, Jorge Toro-Pozo, and Rolando Trujillo-Rasua<br>
-*1st IEEE European Symposium on Security and Privacy (EuroS&P), 2016*<br>
-([<i class="fas fa-link fs-point-8"/> doi](https://doi.org/10.1109/EuroSP.2016.19) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/conf/eurosp/MauwTT16))
+* **A unified characterization of nonlinear scalarizing functionals in optimization**
+Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
+* Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12091v1) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10013-019-00359-1))
 
-### Journals
 
-1. **Multiobjective variable mesh optimization**<br>
-Yamisleydi Salgueiro, Jorge L. Toro, Rafael Bello, and Rafael Falcon<br>
-*Annals of Operations Research, 258(2), 2017*<br>
-([<i class="fas fa-link fs-point-8"/> doi](https://doi.org/10.1007/s10479-016-2221-5) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/journals/anor/SalgueiroTBF17))
-
-1. **Noise Detection and Learning Based on Current Information**<br>
-Damaris Pascual-González, Fernando D. Vázquez Mesa, and Jorge L. Toro Pozo<br>
-*Computación y Sistemas, 18(1), 2014*<br>
-([<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.uni-trier.de/rec/bibtex/journals/cys/Pascual-GonzalezMP14))
-
-### PhD thesis
-
-1. **Computational and Symbolic Analysis of Distance-Bounding Protocols**<br>
-Jorge Luis Toro Pozo<br>
-*Thesis, University of Luxembourg, 2019*<br>
-([<i class="far fa-file-pdf fs-point-9"/> pdf](/assets/files/thesis/thesis-jorge.pdf) \| 
-[<i class="fas fa-link fs-point-8"/> bibtex](https://dblp.org/rec/phd/basesearch/Pozo19.html?view=bibtex) \| 
-[<i class='fas fa-link fs-point-8'/> permalink](http://hdl.handle.net/10993/39506) \| 
-**[<i class="fas fa-award fs-point-9"/> best STM thesis award](https://www.iit.cnr.it/STM-WG/contentpage06.html)**)
-
-## Teaching
-
-I have been part of the teaching team for the following courses (2016 to date).
-
-Semester | Course | Institution
--- | -- | --
-Autumn 2021 | [Applied Security Laboratory](https://infsec.ethz.ch/education/as2021/seclab.html) | ETH Zürich
-Spring 2021 | [Big Data for Engineers](https://systems.ethz.ch/education/courses/2021-spring/big-data-for-engineers.html) | ETH Zürich
-Autumn 2020 | Information Security Lab | ETH Zürich
-Spring 2020 | Information Systems for Engineers | ETH Zürich
-Autumn 2019 | [Algorithms, Probability, and Computing](https://www.ti.inf.ethz.ch/ew/courses/APC19/index.html) | ETH Zürich
-Winter 2016,17,18 | [Security Protocols](https://satoss.uni.lu/courses/securityprotocols/) | University of Luxembourg
-Summer 2017 | Information Security Basics | University of Luxembourg
-
-<!-- Autumn 2012,13 | Operating Systems | Universidad de Las Tunas
-Spring 2013,14,15 | Data Structures | Universidad de Las Tunas-->
-
-## Career & education
+## Education
 
 Period | Position/Degree | Institution
 -- | -- | --
-6/2019–present | Postdoctoral researcher | ETH Zürich<!--<br>(in D. Basin's [Infosec](http://www.infsec.ethz.ch/) group)-->
-6/2015–5/2019 | <i class="fa fa-graduation-cap"/> PhD in Computer Science | University of Luxembourg
-9/2012–5/2015 | Lecturer in Computer Science | Universidad de Las Tunas
-9/2012–5/2015 | Software engineer | SoftDev group, Universidad de Las Tunas
-9/2013–12/2014 | <i class="fa fa-graduation-cap"/> MSc in Applied Computer Science | Universidad de Las Tunas
-9/2007–6/2012 | <i class="fa fa-graduation-cap"/> BSc in Computer Science | Universidad de Oriente
+10/2016-09/2020 | <i class="fa fa-graduation-cap"/> PhD in Mathematics | University of Luxembourg
+09/2014–05/2016 | <i class="fa fa-graduation-cap"/> MSc in Mathematics (concentration in Optimization) | University of Havana
+09/2010–07/2014 | <i class="fa fa-graduation-cap"/> BSc in Mathematics | University of Las Villas
 
-## Awards & grants
-
-Year | Award/Grant | Awarder
--- | -- | --
-2021 | <i class="fas fa-award fs-point-9"/> Best Practical Paper | 42<sup>nd</sup> IEEE Symposium on Security and Privacy ([S&P'21](https://www.ieee-security.org/TC/SP2021/index.html))
-2020 | <i class="fas fa-award fs-point-9"/> Best STM PhD Thesis | European Research Consortium for Informatics and Mathematics ([ERCIM](https://www.ercim.eu/))
-2019 | <i class="fas fa-award fs-point-9"/> Best PhD Thesis | Department of Computer Science, University of Luxembourg
-2015 | AFR-PhD grant | Luxembourg National Research Fund ([FNR](https://www.fnr.lu/))
 
 ## Contact
 
-Dr. Jorge L. Toro Pozo<br>
+Dr. Ernest Quintana<br>
 Institute of Information Security, ETH Zürich<br>
-Office [CNB F 100.5](http://www.rauminfo.ethz.ch/Rauminfo/grundrissplan.gif?gebaeude=CNB&geschoss=F&raumNr=100.5&)<br>
-<i class="fas fa-map-marker-alt"/> Universitätstrasse 6, 8092 Zürich, Switzerland<br>
-<i class="fas fa-phone fs-point-9"/> +41 44 632 53 76‬<br>
-<i class="fas fa-address-card fs-point-9"/> [ETH vCard](https://infsec.ethz.ch/people/detail/Toro%20Pozo.vcard.vcf?persid=260607&addressType=5)‬
+Office C 235<br>
+<i class="fas fa-map-marker-alt"/> Weimarer Straße 25, 98693 Ilmenau, Germany<br>
+<i class="fas fa-phone fs-point-9"/> +49 3677 69-3255   ‬<br>
+<i class="fas fa-address-card fs-point-9"/> [TUI website](https://www.tu-ilmenau.de/en/mmor/team/ernest-quintana)‬
