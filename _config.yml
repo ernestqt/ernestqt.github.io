@@ -1,32 +1,22 @@
 theme: jekyll-theme-minimal
 
-title: Jorge Toro
+title: Ernest Quintana
 logo: /assets/img/profile.jpg
 position: Postdoctoral Researcher
 institution:
-  name: ETH Zürich
-  url: https://ethz.ch/en.html
-  country: Switzerland
+  name: TU Ilmenau
+  url: https://www.tu-ilmenau.de/en/
+  country: Germany
 
 social:
-  email: <script>x = 'jorge.toro'; y = 'inf.ethz.ch'; document.write('<a href="mailto:' + x + '@' + y + '"><i class="fas fa-envelope"></i></a>');</script>
+  email: <script>x = 'ernest.quintana-aparicio'; y = 'tu.ilmenau.de'; document.write('<a href="mailto:' + x + '@' + y + '"><i class="fas fa-envelope"></i></a>');</script>
   github:
-    username: jorgetp
-  twitter:
-    username: jtoropozo
+    username: ernestqt  
   linkedin:
-    username: jtoropozo
-  scholar:
-    user: #mF6Rm5oAAAAJ
-  dblp:
-    link: #https://dblp.uni-trier.de/search?q=Jorge%20Toro%20Pozo
-  orcid:
-    id: #0000-0001-6615-1600
+    username: ernest-quintana-907926a4  
 
 navigation:
-  - <a href="#publications">Publications</a>
-  - <a href="#teaching">Teaching</a>
-  - <a href="#career--education">Career & education</a>
-  - <a href="#awards--grants">Awards & grants</a>
+  - <a href="#publications">Publications & Preprints</a>  
+  - <a href="#career--education">Career & Education</a>
   - <a href="#contact">Contact</a>
 
