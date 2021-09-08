@@ -42,7 +42,7 @@ Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 
 * **A unified characterization of nonlinear scalarizing functionals in optimization**
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
-*Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
+*Vietnam Journal of Mathematics, 47(3), 683-713, 2019*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12091v1) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10013-019-00359-1))
 
 
