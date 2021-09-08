@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm a postdoctoral researcher in Prof. David Basin's [Information Security Group](https://infsec.ethz.ch/) at ETH Zürich. I obtained a PhD in Computer Science from the University of Luxembourg in May 2019, developed under the supervision of Prof. [Sjouke Mauw](https://satoss.uni.lu/sjouke/) and [Rolando Trujillo](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua).
+I'm a postdoctoral researcher in Prof. Gabriele Eichfelder  [Information Security Group](https://infsec.ethz.ch/) at ETH Zürich. I obtained a PhD in Mathematics from the Martin-Luther Universität Halle-Wittenberg in September 2020, developed under the supervision of Prof. [Christiane Tammer](https://satoss.uni.lu/sjouke/) and Prof. [Gemayqzel Bouza](https://www.deakin.edu.au/about-deakin/people/rolando-trujillo-rasua).
 
 My research focuses on **formal verification of security protocols**, with particular interest in:
 * (semi-)automated verification,
