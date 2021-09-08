@@ -30,17 +30,17 @@ Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3))
 
 
-* **A steepest descent method in set optimization for set-valued mappings of finite cardinality**
+* **A steepest descent method in set optimization for set-valued mappings of finite cardinality**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Optimization Theory and Applications, 2021*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10957-021-01887-y))
 
-* **The Fermat rule for set optimization problems with Lipschitzian set-valued mappings**
+* **The Fermat rule for set optimization problems with Lipschitzian set-valued mappings**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12084v2) \| [<i class="fas fa-link fs-point-8"/> doi](http://www.yokohamapublishers.jp/online2/opjnca/vol21/p1137.html))
 
-* **A unified characterization of nonlinear scalarizing functionals in optimization**
+* **A unified characterization of nonlinear scalarizing functionals in optimization**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Vietnam Journal of Mathematics, 47(3), 683-713, 2019*<br>
 ([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12091v1) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10013-019-00359-1))
