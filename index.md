@@ -17,33 +17,33 @@ Here you can find my CV and my PhD Thesis.
 
  --></div>
 
-## Publications & Preprints
+## Publications
 
 
 * **A Vectorization Scheme for Nonconvex Set Optimization Problems**<br>
 Gabriele Eichfelder, Ernest Quintana, and Stefan Rocktäschel<br>
-([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12274v1))
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/pdf/2107.12274v1.pdf))
 
 * **On Clarke's Subdifferential of Marginal Functions**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *to appear in Applied Set-Valued Analysis and Optimization, 2021*<br>
-([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3))
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/pdf/2107.12756v3.pdf))
 
 
 * **A steepest descent method in set optimization for set-valued mappings of finite cardinality**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Optimization Theory and Applications, 2021*<br>
-([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12756v3) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10957-021-01887-y))
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/pdf/2107.12122.pdf) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10957-021-01887-y))
 
 * **The Fermat rule for set optimization problems with Lipschitzian set-valued mappings**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Journal of Nonlinear and Convex Analysis, 21(5), 1137-1174, 2020*<br>
-([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12084v2) \| [<i class="fas fa-link fs-point-8"/> doi](http://www.yokohamapublishers.jp/online2/opjnca/vol21/p1137.html))
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/pdf/2107.12084v2.pdf) \| [<i class="fas fa-link fs-point-8"/> doi](http://www.yokohamapublishers.jp/online2/opjnca/vol21/p1137.html))
 
 * **A unified characterization of nonlinear scalarizing functionals in optimization**<br>
 Gemayqzel Bouza, Ernest Quintana and Christiane Tammer<br>
 *Vietnam Journal of Mathematics, 47(3), 683-713, 2019*<br>
-([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/abs/2107.12091v1) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10013-019-00359-1))
+([<i class="fas fa-link fs-point-8"/> arXiv](https://arxiv.org/pdf/2107.12091v1.pdf) \| [<i class="fas fa-link fs-point-8"/> doi](https://link.springer.com/article/10.1007%2Fs10013-019-00359-1))
 
 
 ## Career & Education
