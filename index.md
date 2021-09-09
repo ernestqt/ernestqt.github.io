@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm a postdoctoral researcher in Prof. Dr. Gabriele Eichfelder's [Group for Mathematical Methods in Operations Research](https://www.tu-ilmenau.de/en/mmor) at TU Ilmenau. I obtained my PhD in Mathematics from the Martin Luther University of Halle-Wittenberg in September 2020 under the supervision of Prof. Dr. [Christiane Tammer](https://optimierung.mathematik.uni-halle.de/mitarbeiter/tammer/) and Prof. Dr. [Gemayqzel Bouza](https://www.researchgate.net/profile/Gemayqzel-Bouza-Allende).
+I'm a postdoctoral researcher in Prof. Dr. [Gabriele Eichfelder](https://www.tu-ilmenau.de/mmor/team/gabriele-eichfelder)'s [Group for Mathematical Methods in Operations Research](https://www.tu-ilmenau.de/en/mmor) at TU Ilmenau. I obtained my PhD in Mathematics from the Martin Luther University of Halle-Wittenberg in September 2020 under the supervision of Prof. Dr. [Christiane Tammer](https://optimierung.mathematik.uni-halle.de/mitarbeiter/tammer/) and Prof. Dr. [Gemayqzel Bouza](https://www.researchgate.net/profile/Gemayqzel-Bouza-Allende).
 
 My research falls within the **optimization area**, with particular focus on:
 * Vector optimization
