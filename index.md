@@ -10,7 +10,7 @@ My research falls within the **optimization area**, with particular focus on:
 * Optimization under uncertainty
 * Nonsmooth analysis
 
-Here you can find my CV and my PhD Thesis.
+Here you can find my CV and my [PhD Thesis](https://opendata.uni-halle.de/bitstream/1981185920/36783/1/Dissertation_Printed_Version%20Ernest%20Quintana.pdf).
 <div><!---### Latest news
 
 * 26-5-2021: News 1 [text](link)
